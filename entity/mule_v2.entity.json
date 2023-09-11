@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:mule",
+      "animations": {
+        "setup": "animation.horse.v2.setup",
+        "baby_transform": "animation.horse.v2.baby_transform",
+        "walk": "animation.horse.v2.walk",
+        "eat": "animation.horse.v2.eat",
+        "stand": "animation.horse.v2.stand",
+        "tail": "animation.horse.v2.tail"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 16
+      }
+    }
+  }
+}

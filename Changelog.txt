@@ -1,0 +1,40 @@
+===========================================================
+
+Changelog - Clear Vanilla 1.20.10
+
+============================================
+
+PACK SETTINGS:
+
+* Changed UUID for each pack so you can
+  download new updates without having to
+  delete the olds.
+* Clear Vanilla Pack Version ID will now
+  follow Minecraft's Version Code system
+============================================
+
+BUG FIXES:
+
+* Reverted change to vex geometry and
+  texture
+* Fixed weird UI textures relating to slots
+* Fixed splashes.json and
+  loading_screen.json for 1.20
+* Fixed odd shading of Grass Side in Cherry
+  Biomes
+* Fixed Carrots in smooth mode no showing up
+  with a border
+
+============================================
+
+TWEAKS:
+
+* Changed .material.bin files used for
+  Redstone Signal Strength Indicator to not
+  show chunk borders
+* Tweaked Calibrated Sculk Sensor's Texture
+  to make it 'Jappified'
+* Tweaked the back of normal Pistons to
+  follow its front colour to make it obvious
+* Dried Kelp Blocks have a proper roper that
+  is symetrical and was an OCD causer

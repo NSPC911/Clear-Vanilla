@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.axolotl": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.lucy",
+            "Texture.cyan",
+            "Texture.gold",
+            "Texture.wild",
+            "Texture.blue"
+          ],
+          "Array.deadskins": [
+            "Texture.lucy_dead",
+            "Texture.cyan_dead",
+            "Texture.gold_dead",
+            "Texture.wild_dead",
+            "Texture.blue_dead"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        },
+        {
+          "*arm": "Material.limbs"
+        },
+        {
+          "*leg": "Material.limbs"
+        }
+      ],
+      "textures": [
+        "query.is_playing_dead ? Array.deadskins[query.variant] : Array.skins[query.variant]"
+      ]
+    }
+  }
+}

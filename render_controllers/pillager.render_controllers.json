@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.pillager": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.is_illager_captain ? Texture.captain : Texture.default"
+      ]
+    },
+    "controller.render.vindicator": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.is_illager_captain ? Texture.captain : Texture.default"
+      ]
+    }
+  }
+}

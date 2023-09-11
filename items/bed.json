@@ -1,0 +1,39 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:bed",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "bed",
+      "minecraft:render_offsets": {
+        "main_hand": {
+          "first_person": {
+            "position": [1, 1, 1],
+            "rotation": [1, 1, 1],
+            "scale": [0, 0, 0]
+          },
+          "third_person": {
+            "position": [1, 1, 1],
+            "rotation": [1, 1, 1],
+            "scale": [0, 0, 0]
+          }
+        },
+        "off_hand": {
+          "first_person": {
+            "position": [1, 1, 1],
+            "rotation": [1, 1, 1],
+            "scale": [0, 0, 0]
+          },
+          "third_person": {
+            "position": [1, 1, 1],
+            "rotation": [1, 1, 1],
+            "scale": [0, 0, 0]
+          }
+        }
+      }
+    }
+  }
+}

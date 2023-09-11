@@ -1,0 +1,102 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "classic_skin_sections/featured_section": {
+    "ignored": true
+  },
+  "classic_skin_sections/get_more_button": {
+    "ignored": true
+  },
+  "classic_skin_sections/divider1": {
+    "ignored": true
+  },
+  "featured_piece_offer_section_panel/center_featured_header_panel": {
+    "ignored": true
+  },
+  "featured_piece_offer_section_panel/cycle_featured_content_section": {
+    "ignored": true
+  },
+  "featured_piece_offer_section_panel/bottom_padding": {
+    "ignored": true
+  },
+  "info_text_box/mid_padding": {
+    "ignored": true
+  },
+  "info_text_box/disclaimer_panel": {
+    "ignored": true
+  },
+  "offer_state_info/offer_state_info_panel/sale_ribbon": {
+    "ignored": true
+  },
+  "offer_state_info/offer_state_info_panel/limited_time": {
+    "ignored": true
+  },
+  "offer_state_info/offer_state_info_panel/new_offer_symbol": {
+    "ignored": true
+  },
+  "offer_state_info/offer_state_info_panel/coin_icon": {
+    "texture": "textures/ui/icon_lock"
+  },
+  "offer_state_info/offer_state_info_panel/free_download": {
+    "texture": "textures/ui/icon_lock"
+  },
+  "piece_section_factory": {
+    "factory": {
+      "name": "sidebar_factory",
+      "control_ids": {
+        "featured_piece_section": "common.empty_panel_size_y_0",
+        "owned_piece_section": "persona.owned_piece_section",
+        "piece_section": "persona.piece_section",
+        "unknown_section": "persona.empty_section"
+      },
+      "factory_variables": [
+        "$piece_section_collection_details",
+        "$piece_section_binding_type",
+        "$piece_section_collection_name",
+        "$piece_section_collection_prefix"
+      ]
+    }
+  },
+  "purchase_buttons/coin_purchase_panel": {
+    "ignored": true
+  },
+  "purchase_buttons/real_money_purchase_panel": {
+    "ignored": true
+  },
+  "right_panel_classic_skin_pack_bottom_buttons/ending_button/to_realms_plus": {
+    "ignored": true
+  },
+  "skin_info_content_stack/image_panel": {
+    "ignored": true
+  },
+  "skin_pack_collection_factory": {
+    "factory": {
+      "name": "skin_pack_collector_factory",
+      "control_ids": {
+        "owned_collector_section": "persona.owned_skin_pack_collection",
+        "unowned_collector_section": "common.empty_panel_size_y_0",
+        "realms_collector_section": "persona.realms_skin_pack_collection"
+      },
+      "factory_variables": [
+        "$section_collection_binding_type",
+        "$section_collection_details",
+        "$section_collection_name",
+        "$section_collection_prefix"
+      ]
+    }
+  },
+  "right_panel_disclaimer_and_info_button/disclaimer_panel": {
+    "ignored": true
+  },
+  "right_panel_disclaimer_and_info_button/realms_plus_more_info_button": {
+    "ignored": true
+  },
+  "skin_doll_button/size_control/realms_plus_icon": {
+    "ignored": true
+  },
+  "title_rarity_stack/mid_padding": {
+    "ignored": true
+  },
+  "title_rarity_stack/position_rarity_panel_offset": {
+    "ignored": true
+  }
+}

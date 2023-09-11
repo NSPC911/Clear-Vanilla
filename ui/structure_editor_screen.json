@@ -1,0 +1,14 @@
+
+{
+  "namespace": "structure_editor",
+
+  "help_button_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ 34, 30 ],
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "controls": [
+    ]
+  }
+}

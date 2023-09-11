@@ -1,0 +1,99 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "coin_icon": {
+    "texture": "textures/ui/icon_lock",
+    "size": [ 9, 11 ]
+  },
+  "coins_with_title/coin_balance_panel": {
+    "ignored": true
+  },
+  "markdown_banner": {
+    "texture": "textures/ui/empty"
+  },
+  "markdown_triangle": {
+    "texture": "textures/ui/empty"
+  },
+  "status_with_coins/padding0": {
+    "ignored": true
+  },
+  "status_with_coins/coin_balance_panel": {
+    "ignored": true
+  },
+  "coins_with_title/coin_balance_panel": {
+    "ignored": true
+  },
+  "store_section_factory": {
+    "factory": {
+      "name": "store_section_factory",
+      "control_ids": {
+        "empty": "@common.empty_panel_size_y_0",
+        "vertical_padding_4_section": "@common_store.vertical_padding_4",
+        "vertical_padding_2_section": "@common_store.vertical_padding_2",
+        "promo_row": "@common.empty_panel_size_y_0",
+        "carousel_row": "@common.empty_panel_size_y_0",
+        "hero_row": "@common.empty_panel_size_y_0",
+        "hero_row_l2": "@common.empty_panel_size_y_0",
+        "single_page_row": "@common.empty_panel_size_y_0",
+        "store_row": "@common.empty_panel_size_y_0",
+        "store_offer_grid": "@common.empty_panel_size_y_0",
+        "text_row": "@common_store.text_row",
+        "vertical_store_offer_grid": "@common.empty_panel_size_y_0",
+        "footer_section": "@common_store.footer",
+        "nav_button_section": "@common.empty_panel_size_y_0",
+        "description_section": "@pdp.description_section",
+        "summary_section": "@pdp.summary_factory_object",
+        "search_bar_section": "@common_store.search_object",
+        "screenshot_carousel_section": "@pdp.screenshot_carousel_factory_object",
+        "skin_pack_section": "@pdp.skin_pack_section_factory_object",
+        "panorama_section": "@pdp.panorama_view_factory_object",
+        "ratings_section": "@pdp.ratings_factory_object",
+        //"recently_viewed_section": "@common.empty_panel_size_y_0",
+        //"related_items_section": "@common.empty_panel_size_y_0",
+        "bundle_summary_section": "@common.empty_panel_size_y_0",
+        "bundle_upsell_section": "@common.empty_panel_size_y_0",
+        "gift_promo_banner": "@common.empty_panel_size_y_0",
+        "coin_row_section": "@common.empty_panel_size_y_0",
+        "promo_timeline": "@common.empty_panel_size_y_0",
+        "image_message_row": "@promo_timeline.image_message_panel",
+        "coin_bundle_section": "@common.empty_panel_size_y_0",
+        "vertical_line_divider_row": "@common_store.vertical_line_divider_row",
+        "dropdown_sdl_header_row": "@common_store.sdl_dropdown_header_row",
+        "dropdown_sdl_data_row": "@common_store.sdl_dropdown_data_row",
+        "persona_height_options_row": "@common.empty_panel_size_y_0",
+        "persona_arm_size_options_row": "@common.empty_panel_size_y_0",
+        "character_selector_row": "@persona_sdl.character_selector",
+        "dark_redirect_button": "@persona_sdl.dark_redirect_button_panel",
+        "Layout": "@common.empty_panel_size_y_0"
+      },
+      "factory_variables": [
+        "$ignore_search_offer_content",
+        "$ratings_visible_after_x_reviews",
+        "$store_factory_clipping_event",
+        "$store_factory_collection_details",
+        "$store_factory_collection_prefix",
+        "$store_factory_collection_name",
+        "$store_factory_binding_type",
+        "$is_realms_plus_screen",
+        "$content_offer_panel_size",
+        "$realms_chevron_binding_name",
+        "$realm_expiration_banner_visible",
+        "$realms_expiration_label",
+        "$is_mashup"
+      ]
+    }
+  },
+  "store_header_with_coins/top_bar/title_stack_panel/padding4": {
+    "ignored": true
+  },
+  "store_header_with_coins/top_bar/title_stack_panel/search_header_stack": {
+    "ignored": true
+  },
+  "tag/new_offer_label": {
+    "texture": "textures/ui/empty",
+    "ignored": true
+  },
+  "timer_panel/timer": {
+    "property_bag": {},
+    "ignored": true
+  }
+}

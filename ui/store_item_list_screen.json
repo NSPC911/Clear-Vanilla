@@ -1,0 +1,27 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "store_offer_grid_item/frame/durable_offer_info_panel/unowned_offer_status_panel/rtx_label": {
+    "ignored": true
+  },
+  "store_offer_grid_item/frame/durable_offer_info_panel/unowned_offer_status_panel/realmsPlus_chevron": {
+    "ignored": true
+  },
+  "store_offer_grid_item/frame/durable_offer_info_panel/unowned_offer_status_panel/sales_markdown_percentage_panel": {
+    "ignored": true
+  },
+  "store_offer_grid_item/frame/durable_offer_info_panel/unowned_offer_status_panel/padding_2": {
+    "ignored": true
+  },
+  "store_offer_grid_item/frame/durable_offer_info_panel/unowned_offer_status_panel/fill_markdown_panel_left": {
+    "ignored": true
+  },
+  "store_offer_grid_item/frame/durable_offer_info_panel/unowned_offer_status_panel/markdown_panel": {
+    "ignored": true
+  },
+  "store_offer_grid_item/frame/durable_offer_info_panel/unowned_offer_status_panel/padding_markdown_panel_right": {
+    "ignored": true
+  },
+  "store_offer_grid_item/frame/durable_offer_info_panel/unowned_offer_status_panel/offer_prompt_panel": {
+    "ignored": true
+  }
+}

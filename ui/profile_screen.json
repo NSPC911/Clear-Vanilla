@@ -1,0 +1,28 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "persona_preset_section_panel": {
+    "size": [ "100%", "65%" ]
+  },
+  "profile_screen_main_content": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "bottom_padding": {
+              "type": "panel",
+              "size": [ "100%", "10%" ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "profile_screen_main_content/featured_section": {
+    "ignored": true
+  },
+  "profile_screen_main_content/featured_section_disabled_padding": {
+    "ignored": true
+  }
+}

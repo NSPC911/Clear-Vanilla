@@ -1,0 +1,12 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "item_rarity_color_background": {
+    "property_bag": {
+      "#common": "$rarity_common_bg_color",
+      "#uncommon": "$rarity_common_bg_color",
+      "#rare": "$rarity_common_bg_color",
+      "#epic": "$rarity_common_bg_color",
+      "#legendary": "$rarity_common_bg_color"
+    }
+  }
+}

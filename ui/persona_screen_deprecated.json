@@ -1,0 +1,141 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "classic_skin_sections": {
+    "modifications": [
+      {
+        "control_name": "purchasable_skin_pack_category",
+        "operation": "remove"
+      },
+      {
+        "control_name": "purchasable_skin_packs",
+        "operation": "remove"
+      }
+    ]
+  },
+  "info_text_box": {
+    "modifications": [
+      {
+        "control_name": "mid_padding",
+        "operation": "remove"
+      },
+      {
+        "control_name": "disclaimer_panel",
+        "operation": "remove"
+      }
+    ]
+  },
+  "offer_state_info/offer_state_info_panel": {
+    "modifications": [
+      {
+        "control_name": "sale_ribbon",
+        "operation": "remove"
+      },
+      {
+        "control_name": "limited_time",
+        "operation": "remove"
+      },
+      {
+        "control_name": "new_offer_symbol",
+        "operation": "remove"
+      }
+    ]
+  },
+  "offer_state_info/offer_state_info_panel/coin_icon": {
+    "texture": "textures/ui/icon_lock"
+  },
+  "offer_state_info/offer_state_info_panel/free_download": {
+    "texture": "textures/ui/icon_lock"
+  },
+  "piece_section": {
+    "modifications": [
+      {
+        "control_name": "featured_piece_section",
+        "operation": "remove"
+      }
+    ]
+  },
+  "purchase_buttons": {
+    "modifications": [
+      {
+        "control_name": "coin_purchase_panel",
+        "operation": "remove"
+      },
+      {
+        "control_name": "real_money_purchase_panel",
+        "operation": "remove"
+      }
+    ]
+  },
+  "right_panel_bottom_buttons/ending_button": {
+    "modifications": [
+      {
+        "control_name": "to_realms_plus",
+        "operation": "remove"
+      }
+    ]
+  },
+  "right_panel_classic_skin_pack": {
+    "modifications": [
+      {
+        "control_name": "skin_pack_preview_image_panel",
+        "operation": "replace",
+        "value": {
+          "side_padding@common.empty_panel": {
+            "size": [ 5, "100%" ]
+          }
+        }
+      }
+    ]
+  },
+  "right_panel_classic_skin_pack/pack_info": {
+    "modifications": [
+      {
+        "control_name": "disclaimer_panel",
+        "operation": "remove"
+      },
+      {
+        "control_name": "bottom_padding",
+        "operation": "remove"
+      }
+    ]
+  },
+  "right_side_stack": {
+    "modifications": [
+      {
+        "control_name": "category_featured_info_panel",
+        "operation": "remove"
+      },
+      {
+        "control_name": "main_featured_info_panel",
+        "operation": "remove"
+      },
+      {
+        "control_name": "classic_skin_featured_panel",
+        "operation": "remove"
+      }
+    ]
+  },
+  "right_side_stack/offer_info_panel_skins": {
+    "size": [ "100%", 85 ]
+  },
+  "skin_doll_button/size_control": {
+    "modifications": [
+      {
+        "control_name": "realms_plus_icon",
+        "operation": "remove"
+      }
+    ]
+  },
+  "title_rarity_background_image/title_stack_panel": {
+    "modifications": [
+      {
+        "control_name": "mid_padding",
+        "operation": "remove"
+      },
+      {
+        "control_name": "position_rarity_panel_offset",
+        "operation": "remove"
+      }
+    ]
+  }
+}

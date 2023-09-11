@@ -1,0 +1,64 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers": {
+		"controller.animation.elytra.fox.default": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [ "default" ],
+					"transitions": [
+						{ "gliding": "!query.is_on_ground && !query.is_in_water" },
+						{ "sneaking": "query.is_stalking || query.is_interested" },
+						{ "sleeping": "query.is_sleeping" },
+						{ "swimming": "query.is_in_water" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"gliding": {
+					"animations": [ "gliding" ],
+					"transitions": [
+						{ "sleeping": "query.is_sleeping" },
+						{ "swimming": "query.is_in_water" },
+						{ "default": "query.is_on_ground" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"sneaking": {
+					"animations": [ "sneaking" ],
+					"transitions": [
+						{ "gliding": "!query.is_on_ground && !query.is_in_water" },
+						{ "sleeping": "query.is_sleeping" },
+						{ "swimming": "query.is_in_water" },
+						{ "default": "!query.is_stalking && !query.is_interested" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"sleeping": {
+					"animations": [ "sleeping" ],
+					"transitions": [
+						{ "gliding": "!query.is_on_ground && !query.is_in_water" },
+						{ "sneaking": "query.is_stalking || query.is_interested" },
+						{ "swimming": "query.is_in_water" },
+						{ "default": "!query.is_sleeping" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"swimming": {
+					"animations": [ "swimming" ],
+					"transitions": [
+						{ "gliding": "!query.is_on_ground && !query.is_in_water" },
+						{ "sneaking": "query.is_stalking || query.is_interested" },
+						{ "sleeping": "query.is_sleeping" },
+						{ "default": "!query.is_in_water" }
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

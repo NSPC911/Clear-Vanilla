@@ -1,0 +1,19 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "section_content_panels/general_and_controls_sections": {
+    "modifications": [
+      {
+        "control_name": "view_subscriptions_section",
+        "operation": "remove"
+      }
+    ]
+  },
+  "selector_stack_panel/controls_and_settings_selector_pane": {
+    "modifications": [
+      {
+        "control_name": "view_subscriptions_button",
+        "operation": "remove"
+      }
+    ]
+  }
+}

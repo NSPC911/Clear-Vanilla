@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:elytra.fox",
+      "item": { "minecraft:elytra": "query.owner_identifier == 'minecraft:fox'" },
+      "materials": {
+        "default": "elytra",
+        "enchanted": "elytra_glint"
+      },
+      "textures": {
+        "default": "textures/models/armor/elytra",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.elytra.fox"
+      },
+      "animations": {
+        "default_controller": "controller.animation.elytra.fox.default",
+        "default": "animation.elytra.fox.default",
+        "gliding": "animation.elytra.fox.gliding",
+        "sneaking": "animation.elytra.fox.sneaking",
+        "sleeping": "animation.elytra.fox.sleeping",
+        "swimming": "animation.elytra.fox.swimming"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          "default_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.armor.fox" ]
+    }
+  }
+}

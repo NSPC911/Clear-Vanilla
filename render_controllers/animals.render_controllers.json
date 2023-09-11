@@ -1,0 +1,72 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.chicken": {
+      "geometry": "geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        },
+        {
+          "leg*": "Material.legs"
+        }
+      ],
+      "textures": [
+        "query.is_in_love ? Texture.in_love : texture.default"
+      ]
+    },
+    "controller.render.cow": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.is_in_love ? Texture.in_love : Texture.default"
+      ]
+    },
+    "controller.render.pig": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.default",
+            "Texture.saddled"
+          ],
+          "Array.loved": [
+            "Texture.in_love",
+            "Texture.in_love_saddled"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.is_in_love ? Array.loved[query.is_saddled] : Array.skins[query.is_saddled]"
+      ]
+    },
+    "controller.render.sheep": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [
+            "Geometry.default",
+            "Geometry.sheared"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.is_sheared]",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.is_in_love ? Texture.in_love : Texture.default"
+      ]
+    }
+  }
+}

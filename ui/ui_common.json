@@ -1,0 +1,7 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "empty_element": {}, //These empty elements are used to remove inherited properties from existing elements.
+  "empty_button_element": {
+    "type": "button"
+  }
+}

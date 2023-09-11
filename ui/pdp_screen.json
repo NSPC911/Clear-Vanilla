@@ -1,0 +1,21 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "smooth_buttons_panel/purchase_buttons_panel": {
+    "ignored": true
+  },
+  "smooth_buttons_panel/deactivated_purchase_buttons_panel": {
+    "ignored": true
+  },
+  "summary_text_panel/sale_timer_panel": {
+    "ignored": true
+  },
+  "summary_text_panel/in_realms_plus_panel": {
+    "ignored": true
+  },
+  "summary_text_panel/pad_0": {
+    "ignored": true
+  },
+  "summary_text_panel/disclaimer_panel": {
+    "ignored": true
+  }
+}

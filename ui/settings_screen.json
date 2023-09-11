@@ -1,0 +1,9 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "section_content_panels/general_and_controls_sections/view_subscriptions_section": {
+    "ignored": true
+  },
+  "selector_stack_panel/controls_and_settings_selector_pane/view_subscriptions_button": {
+    "ignored": true
+  }
+}

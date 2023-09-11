@@ -1,0 +1,29 @@
+{
+  "namespace": "crafting_pocket",
+
+  "right_panel": {
+    "type": "input_panel",
+    "size": [ "100%", "100%" ],
+    "layer": 5,
+    "controls": [
+      {
+        "right_background@common.common_panel": {
+          "$dialog_background": "common.dialog_background_opaque",
+          "$show_close_button": false
+        }
+      },
+      {
+        "crafting_tab_content@crafting_pocket.right_tab_content": {
+          "$right_tab_view_toggle_name": "crafting_tab_toggle",
+          "$right_tab_content_control": "$top_half_variant"
+        }
+      },
+      {
+        "armor_tab_content@crafting_pocket.right_tab_content": {
+          "$right_tab_view_toggle_name": "armor_tab_toggle",
+          "$right_tab_content_control": "crafting_pocket.pocket_armor_tab_content"
+        }
+      }
+    ]
+  }
+}

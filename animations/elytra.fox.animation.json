@@ -1,0 +1,95 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.elytra.fox.default": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"scale": 0.8
+				},
+				"left_wing": {
+					"rotation": [5, -15, 2.5],
+					"position": [3.5, 1, -2],
+					"scale": [0.8, 0.8, 1.6]
+				},
+				"right_wing": {
+					"rotation": [5, 15, -2.5],
+					"position": [-3.5, 1, -2],
+					"scale": [0.8, 0.8, 1.6]
+				}
+			}
+		},
+		"animation.elytra.fox.gliding": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"scale": 0.8
+				},
+				"left_wing": {
+					"rotation": [0, -80, 15],
+					"position": [-1, 1, 3.5],
+					"scale": [0.8, 0.8, 1.6]
+				},
+				"right_wing": {
+					"rotation": [0, 80, -15],
+					"position": [1, 1, 3.5],
+					"scale": [0.8, 0.8, 1.6]
+				}
+			}
+		},
+		"animation.elytra.fox.sneaking": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"scale": 0.8
+				},
+				"left_wing": {
+					"rotation": [0, -45, 15],
+					"position": [1, 1, 1.5],
+					"scale": [0.8, 0.8, 1.6]
+				},
+				"right_wing": {
+					"rotation": [0, 45, -15],
+					"position": [-1, 1, 1.5],
+					"scale": [0.8, 0.8, 1.6]
+				}
+			}
+		},
+		"animation.elytra.fox.sleeping": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"scale": 0.8
+				},
+				"left_wing": {
+					"rotation": [0, -15, 0],
+					"position": [3.5, 1, -2.5],
+					"scale": [0.8, 0.8, 1.6]
+				},
+				"right_wing": {
+					"rotation": [0, 15, 0],
+					"position": [-3.5, 1, -2.5],
+					"scale": [0.8, 0.8, 1.6]
+				}
+			}
+		},
+		"animation.elytra.fox.swimming": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"scale": 0.8
+				},
+				"left_wing": {
+					"rotation": ["query.swim_amount * 15", -15, 0],
+					"position": [3.5, 1, -2.5],
+					"scale": [0.8, 0.8, 1.6]
+				},
+				"right_wing": {
+					"rotation": ["query.swim_amount * 15", 15, 0],
+					"position": [-3.5, 1, -2.5],
+					"scale": [0.8, 0.8, 1.6]
+				}
+			}
+		}
+	}
+}

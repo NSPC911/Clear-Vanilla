@@ -1,0 +1,10 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "patch_notes_header/patch_notes_background": {
+    "$header_content": "patch_notes_header_content_without_offer",
+    "variables": []
+  },
+  "patch_notes_header_content_without_offer": {
+    "$show_patch_image_full_width": true
+  }
+}
