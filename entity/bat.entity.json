@@ -5,13 +5,13 @@
       "identifier": "minecraft:bat",
       "materials": { "default": "bat" },
       "textures": {
-        "default": "textures/entity/bat"
+        "default": "textures/entity/bat_v2"
       },
       "geometry": {
-        "default": "geometry.bat"
+        "default": "geometry.bat_v2"
       },
       "scripts": {
-        "scale": "0.35"
+        "scale": "1"
       },
       "animations": {
         "resting": "animation.bat.resting",
