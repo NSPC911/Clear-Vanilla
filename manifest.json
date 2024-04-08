@@ -1,65 +1,75 @@
 {
-  "format_version": 2,
-  "header": {
-    "name": "Clear Vanilla (Default)",
-    "uuid": "6f5c1cac-342f-405f-89ae-db777a4cd428",
-    "version": [
-      1,
-      20,
-      50
+    "format_version": 2,
+    "header": {
+        "description": "§4Clear Vanilla (Default)§r\nClearer default textures, made by @melamed_tal and @Nspg9.",
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ],
+        "name": "Clear Vanilla (Default)",
+        "uuid": "c1rca211-a19a-1210-b527-185d7dced761",
+        "version": [
+            1,
+            21,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "§4Clear Vanilla (Default)§r\nClearer default textures, made by @melamed_tal and @Nspg9.",
+            "type": "resources",
+            "uuid": "c1rca211-al9a-1210-a1dc-45ed1947d27f",
+            "version": [
+                1,
+                21,
+                0
+            ]
+        }
     ],
-    "description": "§4Clear Vanilla (Default)§r\nClearer default textures, made by @melamed_tal and @Nspg9.",
-    "min_engine_version": [
-      1,
-      20,
-      0
+    "subpacks": [
+        {
+            "folder_name": "smooth_texture",
+            "memory_tier": 1,
+            "name": "Textures Style:§l Smooth §r"
+        },
+        {
+            "folder_name": "tweaked_texture",
+            "memory_tier": 1,
+            "name": "Textures Style:§l Tweaked §r"
+        },
+        {
+            "folder_name": "vanilla_texture",
+            "memory_tier": 1,
+            "name": "Textures Style:§l Vanilla §r"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "@melamed_tal",
+            "@Nspg9"
+        ]
+    },
+    "settings": [
+        {
+            "text": "Thanks for using Clear Vanilla (Default)!\nRestart Minecraft after applying packs!\nMake sure to join the Discord!",
+            "type": "label"
+        },
+        {
+            "default": "https://discord.gg/9Fvd5ZxPtP",
+            "name": "serverlink",
+            "text": "",
+            "type": "input"
+        },
+        {
+            "text": "Contribute to the source code!",
+            "type": "label"
+        },
+        {
+            "default": "https://github.com/NSPC911/Clear-Vanilla",
+            "name": "githublink",
+            "text": "",
+            "type": "input"
+        }
     ]
-  },
-  "modules": [
-    {
-      "type": "resources",
-      "uuid": "88e1b250-03ce-4f5f-ad25-a799f6a23b72",
-      "version": [
-        1,
-        0,
-        0
-      ],
-      "description": "§4Clear Vanilla (Default)§r\nClearer default textures, made by @melamed_tal and @Nspg9."
-    }
-  ],
-  "metadata": {
-    "authors": [
-      "@melamed_tal",
-      "@Nspg9"
-    ]
-  },
-  "subpacks": [
-    {
-      "folder_name": "smooth_texture",
-      "name": "Textures Style:§l Smooth §r",
-      "memory_tier": 1
-    },
-    {
-      "folder_name": "tweaked_texture",
-      "name": "Textures Style:§l Tweaked §r",
-      "memory_tier": 1
-    },
-    {
-      "folder_name": "vanilla_texture",
-      "name": "Textures Style:§l Vanilla §r",
-      "memory_tier": 1
-    }
-  ],
-  "settings": [
-    {
-      "type": "label",
-      "text": "Thanks for using Clear Vanilla (Default)!\nRestart Minecraft after applying packs!\nMake sure to join the Discord!"
-    },
-    {
-      "type": "input",
-      "default": "discord.gg/9Fvd5ZxPtP",
-      "text": "",
-      "name": "link"
-    }
-  ]
 }

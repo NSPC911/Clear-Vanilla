@@ -825,7 +825,7 @@
         "trapped_chest_inventory_top": {
             "textures": "textures/blocks/trapped_chest_inventory_top"
         },
-        "trial_spawner_bottom_blockstated": {
+        "trial_spawner_bottom": {
             "textures": [
                 "textures/blocks/trial_spawner_bottom_inactive",
                 "textures/blocks/trial_spawner_bottom",
@@ -835,7 +835,7 @@
                 "textures/blocks/trial_spawner_bottom_inactive"
             ]
         },
-        "trial_spawner_side_blockstated": {
+        "trial_spawner_side": {
             "textures": [
                 "textures/blocks/trial_spawner_side_inactive",
                 "textures/blocks/trial_spawner_side",
@@ -848,7 +848,7 @@
         "trip_wire_carried": {
             "textures": "textures/items/string"
         },
-        "vault_bottom_blockstated": {
+        "vault_bottom": {
             "textures": [
                 "textures/blocks/vault_bottom_off",
                 "textures/blocks/vault_bottom_on",
@@ -856,7 +856,7 @@
                 "textures/blocks/vault_bottom_ejecting"
             ]
         },
-        "vault_side_blockstated": {
+        "vault_side": {
             "textures": [
                 "textures/blocks/vault_side_off",
                 "textures/blocks/vault_side_on",
