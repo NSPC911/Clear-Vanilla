@@ -827,50 +827,50 @@
     },
     "trial_spawner_bottom": {
       "textures": [
-        "textures/blocks/unominous_blocks/trial_spawner_bottom_inactive",
-        "textures/blocks/unominous_blocks/trial_spawner_bottom_active",
-        "textures/blocks/unominous_blocks/trial_spawner_bottom_active",
+        "textures/blocks/unominous_blocks/trial_spawner_bottom_off",
+        "textures/blocks/unominous_blocks/trial_spawner_bottom_on",
+        "textures/blocks/unominous_blocks/trial_spawner_bottom_on",
         "textures/blocks/unominous_blocks/trial_spawner_bottom_ejecting",
         "textures/blocks/unominous_blocks/trial_spawner_bottom_ejecting",
-        "textures/blocks/unominous_blocks/trial_spawner_bottom_inactive",
-        "textures/blocks/ominous_blocks/trial_spawner_bottom_inactive",
-        "textures/blocks/ominous_blocks/trial_spawner_bottom_active",
-        "textures/blocks/ominous_blocks/trial_spawner_bottom_active",
+        "textures/blocks/unominous_blocks/trial_spawner_bottom_off",
+        "textures/blocks/ominous_blocks/trial_spawner_bottom_off",
+        "textures/blocks/ominous_blocks/trial_spawner_bottom_on",
+        "textures/blocks/ominous_blocks/trial_spawner_bottom_on",
         "textures/blocks/ominous_blocks/trial_spawner_bottom_ejecting",
         "textures/blocks/ominous_blocks/trial_spawner_bottom_ejecting",
-        "textures/blocks/ominous_blocks/trial_spawner_bottom_inactive"
+        "textures/blocks/ominous_blocks/trial_spawner_bottom_off"
       ]
     },
     "trial_spawner_side": {
       "textures": [
-        "textures/blocks/unominous_blocks/trial_spawner_side_inactive",
-        "textures/blocks/unominous_blocks/trial_spawner_side_active",
-        "textures/blocks/unominous_blocks/trial_spawner_side_active",
+        "textures/blocks/unominous_blocks/trial_spawner_side_off",
+        "textures/blocks/unominous_blocks/trial_spawner_side_on",
+        "textures/blocks/unominous_blocks/trial_spawner_side_on",
         "textures/blocks/unominous_blocks/trial_spawner_side_ejecting",
         "textures/blocks/unominous_blocks/trial_spawner_side_ejecting",
-        "textures/blocks/unominous_blocks/trial_spawner_side_inactive",
-        "textures/blocks/ominous_blocks/trial_spawner_side_inactive",
-        "textures/blocks/ominous_blocks/trial_spawner_side_active",
-        "textures/blocks/ominous_blocks/trial_spawner_side_active",
+        "textures/blocks/unominous_blocks/trial_spawner_side_off",
+        "textures/blocks/ominous_blocks/trial_spawner_side_off",
+        "textures/blocks/ominous_blocks/trial_spawner_side_on",
+        "textures/blocks/ominous_blocks/trial_spawner_side_on",
         "textures/blocks/ominous_blocks/trial_spawner_side_ejecting",
         "textures/blocks/ominous_blocks/trial_spawner_side_ejecting",
-        "textures/blocks/ominous_blocks/trial_spawner_side_inactive"
+        "textures/blocks/ominous_blocks/trial_spawner_side_off"
       ]
     },
     "trial_spawner_top": {
       "textures": [
-        "textures/blocks/unominous_blocks/trial_spawner_top_inactive",
-        "textures/blocks/unominous_blocks/trial_spawner_top_active",
-        "textures/blocks/unominous_blocks/trial_spawner_top_active",
+        "textures/blocks/unominous_blocks/trial_spawner_top_off",
+        "textures/blocks/unominous_blocks/trial_spawner_top_on",
+        "textures/blocks/unominous_blocks/trial_spawner_top_on",
         "textures/blocks/unominous_blocks/trial_spawner_top_ejecting",
         "textures/blocks/unominous_blocks/trial_spawner_top_ejecting",
-        "textures/blocks/unominous_blocks/trial_spawner_top_inactive",
-        "textures/blocks/ominous_blocks/trial_spawner_top_inactive",
-        "textures/blocks/ominous_blocks/trial_spawner_top_active",
-        "textures/blocks/ominous_blocks/trial_spawner_top_active",
+        "textures/blocks/unominous_blocks/trial_spawner_top_off",
+        "textures/blocks/ominous_blocks/trial_spawner_top_off",
+        "textures/blocks/ominous_blocks/trial_spawner_top_on",
+        "textures/blocks/ominous_blocks/trial_spawner_top_on",
         "textures/blocks/ominous_blocks/trial_spawner_top_ejecting",
         "textures/blocks/ominous_blocks/trial_spawner_top_ejecting",
-        "textures/blocks/ominous_blocks/trial_spawner_top_inactive"
+        "textures/blocks/ominous_blocks/trial_spawner_top_off"
       ]
     },
     "trip_wire_carried": {
