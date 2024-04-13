@@ -9,8 +9,7 @@
         "legs": "chicken_legs"
       },
       "textures": {
-        "default": "textures/entity/chicken",
-        "in_love": "textures/entity/chicken/chicken_in_love"
+        "default": "textures/entity/chicken"
       },
       "geometry": {
         "default": "geometry.chicken.v1.12"

@@ -8,8 +8,7 @@
         "default": "sheep"
       },
       "textures": {
-        "default": "textures/entity/sheep/sheep",
-        "in_love": "textures/entity/sheep/sheep_in_love"
+        "default": "textures/entity/sheep/sheep"
       },
       "geometry": {
         "default": "geometry.sheep.v1.8",

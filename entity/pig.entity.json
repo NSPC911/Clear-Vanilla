@@ -9,8 +9,6 @@
       },
       "textures": {
         "default": "textures/entity/pig/pig",
-        "in_love": "textures/entity/pig/pig_in_love",
-        "in_love_saddled": "textures/entity/pig/pig_saddle_in_love",
         "saddled": "textures/entity/pig/pig_saddle",
         "interested": "textures/entity/char"
       },

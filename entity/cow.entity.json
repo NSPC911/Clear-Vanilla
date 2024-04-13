@@ -7,7 +7,6 @@
       "materials": { "default": "cow" },
       "textures": {
         "default": "textures/entity/cow/cow",
-        "in_love": "textures/entity/cow/cow_in_love",
         "leashed": "textures/entity/cow/cow_leashed"
       },
       "geometry": {

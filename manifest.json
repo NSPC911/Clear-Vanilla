@@ -4,11 +4,11 @@
         "description": "§4Clear Vanilla (Default)§r\nClearer default textures, made by @melamed_tal and @Nspg9.",
         "min_engine_version": [
             1,
-            21,
-            0
+            20,
+            70
         ],
         "name": "Clear Vanilla (Default)",
-        "uuid": "c1rca211-a19a-1210-b527-185d7dced761",
+        "uuid": "c16ca211-a19a-1210-b527-185d7dced761",
         "version": [
             1,
             21,
@@ -19,7 +19,7 @@
         {
             "description": "§4Clear Vanilla (Default)§r\nClearer default textures, made by @melamed_tal and @Nspg9.",
             "type": "resources",
-            "uuid": "c1rca211-al9a-1210-a1dc-45ed1947d27f",
+            "uuid": "c16ca211-a19a-1210-a1dc-45ed1947d27f",
             "version": [
                 1,
                 21,
