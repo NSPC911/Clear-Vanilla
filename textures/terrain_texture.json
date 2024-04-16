@@ -1032,6 +1032,9 @@
     "waxed_copper_block": {
       "textures": "textures/blocks/waxed_copper_block"
     },
+    "waxed_copper_block_f": {
+      "textures": "textures/blocks/waxed_copper_block_anim_test"
+    },
     "waxed_copper_bulb": {
       "textures": [
         "textures/blocks/waxed_copper_bulb",

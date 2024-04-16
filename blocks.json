@@ -1037,9 +1037,9 @@
     "sound": "copper"
   },
   "waxed_copper": {
-    "isotropic": false,
+    "isotropic": true,
     "sound": "copper",
-    "textures": "waxed_copper_block"
+    "textures": "waxed_copper_block_f"
   },
   "waxed_copper_bulb": {
     "isotropic": false,
