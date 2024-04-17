@@ -1043,7 +1043,7 @@
   },
   "waxed_copper_bulb": {
     "isotropic": false,
-    "textures": "copper_bulb",
+    "textures": "waxed_copper_bulb",
     "sound": "copper_bulb"
   },
   "waxed_copper_door": {
