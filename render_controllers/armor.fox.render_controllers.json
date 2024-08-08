@@ -3,11 +3,11 @@
   "render_controllers": {
     "controller.render.armor.fox": {
       "geometry": "Geometry.default",
-      "materials": [ { "*": "variable.is_enchanted ? Material.enchanted : Material.default" } ],
-      "part_visibility": [
-        { "leg*": "!query.is_sleeping" }
+      "materials": [
+        { "*": "variable.is_enchanted ? Material.enchanted : Material.default" }
       ],
-      "textures": [ "Texture.default", "Texture.enchanted" ]
+      "part_visibility": [{ "leg*": "!query.is_sleeping" }],
+      "textures": ["Texture.default", "Texture.enchanted"]
     }
   }
 }

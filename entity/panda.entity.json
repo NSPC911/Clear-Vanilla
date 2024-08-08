@@ -32,7 +32,7 @@
         { "sneezing": "controller.animation.panda.sneezing" },
         { "baby": "controller.animation.panda.baby" }
       ],
-      "render_controllers": [ "controller.render.panda" ],
+      "render_controllers": ["controller.render.panda"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 25

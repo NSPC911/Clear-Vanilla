@@ -11,7 +11,7 @@
     "type": "image",
     "layer": 1,
     "texture": "textures/ui/arrowRight",
-    "size": [ 8, 8 ],
+    "size": [8, 8],
     "alpha": "$alpha"
   },
 
@@ -20,26 +20,26 @@
     "type": "image",
     "layer": 1,
     "texture": "textures/ui/dropdown_chevron",
-    "size": [ 8, 8 ],
+    "size": [8, 8],
     "alpha": "$alpha"
   },
 
   "subsection_title": {
     "type": "stack_panel",
     "orientation": "vertical",
-    "size": [ "100%", "100%c + 10px" ],
+    "size": ["100%", "100%c + 10px"],
     "$text|default": "",
     "controls": [
       {
         "spacer_0": {
           "type": "panel",
-          "size": [ "100%", 4 ]
+          "size": ["100%", 4]
         }
       },
       {
         "sizer_0": {
           "type": "panel",
-          "size": [ "100%", "100%c" ],
+          "size": ["100%", "100%c"],
           "controls": [
             {
               "title": {
@@ -58,18 +58,18 @@
       {
         "spacer_1": {
           "type": "panel",
-          "size": [ "100%", 2 ]
+          "size": ["100%", 2]
         }
       },
       {
         "sizer_1": {
           "type": "panel",
-          "size": [ "100%", "100%c" ],
+          "size": ["100%", "100%c"],
           "controls": [
             {
               "section_divider": {
                 "type": "image",
-                "size": [ "100% - 4px", 1 ],
+                "size": ["100% - 4px", 1],
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 3,
@@ -85,15 +85,15 @@
   "action_button@common_buttons.light_text_button": {
     "$pressed_button_name|default": "unset_button_name",
     "$button_text|default": "unset $button_text",
-    "size": [ "100%", 30 ],
+    "size": ["100%", 30],
     "anchor_from": "center",
     "anchor_to": "center"
   },
 
   "link_button@common_buttons.hyperlink_button": {
     "$button_text|default": "unset $button_text",
-    "size": [ "100%", 30 ],
-    "$button_size_override": [ "100%", "100% + 1px" ],
+    "size": ["100%", 30],
+    "$button_size_override": ["100%", "100% + 1px"],
     "anchor_from": "center",
     "anchor_to": "center",
     "property_bag": {
@@ -103,7 +103,7 @@
 
   "option_group_label": {
     "type": "panel",
-    "size": [ "100%", "100%c + 9px" ],
+    "size": ["100%", "100%c + 9px"],
     "$text|default": "unset $text",
     "$text_bindings|default": [],
     "controls": [
@@ -114,8 +114,8 @@
           "text": "$text",
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "max_size": [ "100%", "default" ],
-          "offset": [ 0, 4 ],
+          "max_size": ["100%", "default"],
+          "offset": [0, 4],
           "locked_alpha": 0.5,
           "bindings": "$text_bindings"
         }
@@ -125,7 +125,7 @@
 
   "option_generic": {
     "type": "panel",
-    "$option_generic_panel_size|default": [ "100%", "100%c" ],
+    "$option_generic_panel_size|default": ["100%", "100%c"],
     "size": "$option_generic_panel_size",
     "$enabled|default": true,
     "$option_enabled_binding_name|default": "",
@@ -151,9 +151,9 @@
     "$one_line_layout|default": false,
     "$option_enabled_binding_type|default": "global",
     "$option_label_alignment|default": "left",
-    "$label_offset|default": [ 0, 0 ],
+    "$label_offset|default": [0, 0],
     "type": "stack_panel",
-    "size": [ "100%", "100%c" ],
+    "size": ["100%", "100%c"],
     "enabled": "$enabled",
     "variables": [
       {
@@ -175,19 +175,19 @@
           "ignored": "($one_line_layout)",
           "type": "stack_panel",
           "orientation": "vertical",
-          "size": [ "100%", "100%c" ],
+          "size": ["100%", "100%c"],
           "controls": [
             {
               "option_label_panel": {
                 "type": "panel",
-                "size": [ "100%", "100%c" ],
+                "size": ["100%", "100%c"],
                 "controls": [
                   {
                     "option_label": {
                       "type": "label",
                       "text_alignment": "$option_label_alignment",
                       "color": "$main_header_text_color",
-                      "size": [ "100%", "default" ],
+                      "size": ["100%", "default"],
                       "offset": "$label_offset",
                       "layer": 1,
                       "text": "$option_label",
@@ -203,7 +203,7 @@
               "spacer": {
                 "type": "panel",
                 "visible": "$show_option_label",
-                "size": [ 0, 1 ]
+                "size": [0, 1]
               }
             },
             {
@@ -233,12 +233,12 @@
           // If this layout is used for any other controls, then $line_size and
           // $min_line_size will need to be changed accordingly, just like
           // $label_size and $label_offset.
-          "$line_size|default": [ "100%", "100%c - 16px" ],
-          "$line_min_size|default": [ "100%", "16px" ],
+          "$line_size|default": ["100%", "100%c - 16px"],
+          "$line_min_size|default": ["100%", "16px"],
           "size": "$line_size",
           "min_size": "$line_min_size",
-          "$label_size|default": [ "100% - 34px", "default" ],
-          "$label_offset|default": [ 34, 0 ],
+          "$label_size|default": ["100% - 34px", "default"],
+          "$label_offset|default": [34, 0],
           "controls": [
             {
               "$control_name@$control_name": {
@@ -268,14 +268,14 @@
       {
         "spacer": {
           "type": "panel",
-          "size": [ 0, 4 ]
+          "size": [0, 4]
         }
       }
     ]
   },
 
   "option_text_edit_control@common.text_edit_box": {
-    "$option_text_edit_control_size|default": [ "100%", "30px" ],
+    "$option_text_edit_control_size|default": ["100%", "30px"],
     "size": "$option_text_edit_control_size",
     "max_length": "$max_text_edit_length",
     "$text_edit_box_content_binding_name": "$option_binding_name",
@@ -300,11 +300,11 @@
   "option_text_edit_control_with_button": {
     "type": "stack_panel",
     "orientation": "horizontal",
-    "size": [ "100%", "30px" ],
+    "size": ["100%", "30px"],
     "controls": [
       {
         "text_box@common.text_edit_box": {
-          "size": [ "85%", "100%" ],
+          "size": ["85%", "100%"],
           "max_length": "$max_text_edit_length",
           "$text_edit_box_content_binding_name": "$option_binding_name",
           "$text_edit_box_binding_collection_name": "$option_binding_name",
@@ -326,7 +326,7 @@
       {
         "button@common_buttons.light_glyph_button": {
           "$button_content": "settings_common.arrow_image",
-          "size": [ "fill", "100%" ]
+          "size": ["fill", "100%"]
         }
       }
     ]
@@ -335,12 +335,12 @@
   "option_text_edit_control_with_text_button": {
     "type": "stack_panel",
     "orientation": "horizontal",
-    "$option_text_edit_control_with_button_size|default": [ "100%", "30px" ],
+    "$option_text_edit_control_with_button_size|default": ["100%", "30px"],
     "size": "$option_text_edit_control_with_button_size",
     "controls": [
       {
         "text_box@common.text_edit_box": {
-          "$option_text_edit_control_size|default": [ "85%", "100%" ],
+          "$option_text_edit_control_size|default": ["85%", "100%"],
           "size": "$option_text_edit_control_size",
           "max_length": "$max_text_edit_length",
           "$text_edit_box_content_binding_name": "$option_binding_name",
@@ -364,7 +364,7 @@
         "button@common_buttons.light_text_button": {
           "$pressed_button_name|default": "unset_button_name",
           "$button_text|default": "unset $button_text",
-          "$option_button_control_size|default": [ "fill", "100%" ],
+          "$option_button_control_size|default": ["fill", "100%"],
           "size": "$option_button_control_size"
         }
       }
@@ -373,7 +373,7 @@
 
   "option_toggle_state_template": {
     "type": "image",
-    "size": [ 30, 16 ],
+    "size": [30, 16],
     "anchor_from": "top_left",
     "anchor_to": "top_left"
   },
@@ -407,7 +407,7 @@
     "$toggle_state_binding_name|default": "$option_binding_name",
     "$toggle_enabled_binding_name|default": "$option_enabled_binding_name",
     "$toggle_enabled_binding_type|default": "global",
-    "size": [ "100%", "100%c" ],
+    "size": ["100%", "100%c"],
     "$binding_type": "global",
     "$binding_condition": "once",
     "$unchecked_control": "settings_common.option_toggle_off",
@@ -463,7 +463,7 @@
 
   "radio_visuals": {
     "type": "panel",
-    "size": [ "100%", 16 ],
+    "size": ["100%", 16],
     "$alpha|default": 1.0,
     "$radio_label_bindings|default": [],
     "$radio_label_color|default": "$main_header_text_color",
@@ -489,7 +489,7 @@
           "alpha": "$alpha",
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
-          "size": [ 10, 10 ],
+          "size": [10, 10],
           "layer": 2
         }
       },
@@ -502,8 +502,8 @@
           "text": "$radio_label_text",
           "font_type": "$radio_label_font_type",
           "color": "$radio_label_color",
-          "offset": [ 16, 0.5 ],
-          "size": [ "100% - 16px", "default" ],
+          "offset": [16, 0.5],
+          "size": ["100% - 16px", "default"],
           "alpha": "$alpha",
           "bindings": "$radio_label_bindings",
           "layer": 2
@@ -512,9 +512,9 @@
       {
         "accessibility_selection_highlight": {
           "type": "image",
-          "$selection_highlight_size|default": [ "100% + 4px", "100% + 2px" ],
+          "$selection_highlight_size|default": ["100% + 4px", "100% + 2px"],
           "size": "$selection_highlight_size",
-          "$selection_highlight_offset|default": [ 0, 0 ],
+          "$selection_highlight_offset|default": [0, 0],
           "offset": "$selection_highlight_offset",
           "ignored": "(not $selected and not $hovered)",
           "$highlight_image|default": "",
@@ -536,7 +536,7 @@
     "$checked_locked_control|default": "settings_common.radio_visuals_checked_locked",
     "$checked_locked_hover_control|default": "settings_common.radio_visuals_checked_locked",
     "$radio_toggle_group": true,
-    "size": [ "100%", "100%c" ],
+    "size": ["100%", "100%c"],
     "$toggle_name|default": "$toggle_state_binding_name",
     "$toggle_enabled_binding_name": "$option_enabled_binding_name",
 
@@ -553,7 +553,7 @@
 
   "option_radio_group_control": {
     "type": "stack_panel",
-    "size": [ "100%", "100%c" ],
+    "size": ["100%", "100%c"],
     "controls": "$radio_buttons",
     /* Here's an example of how $radio_buttons should be defined:
     "$radio_buttons": [
@@ -584,8 +584,8 @@
     "type": "panel",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ "100%", "17px" ],
-    "offset": [ 3, 0 ],
+    "size": ["100%", "17px"],
+    "offset": [3, 0],
     "$enabled|default": true,
     "controls": [
       { "radio_with_label_core@settings_common.radio_with_label_core": {} }
@@ -624,13 +624,13 @@
 
   "radio_with_label_and_content_stack_item": {
     "type": "panel",
-    "$radio_stack_item_element_size|default": [ "100%c", 19 ],
+    "$radio_stack_item_element_size|default": ["100%c", 19],
     "size": "$radio_stack_item_element_size"
   },
 
   "radio_with_label_and_content": {
     "type": "panel",
-    "size": [ "100%", "100%cm" ],
+    "size": ["100%", "100%cm"],
     "$radio_background_color|default": "$radio_background_unchecked_color",
     "controls": [
       {
@@ -638,7 +638,7 @@
           "type": "image",
           "texture": "textures/ui/White",
           "keep_ratio": false,
-          "size": [ "100% - 4px", "100%sm" ],
+          "size": ["100% - 4px", "100%sm"],
           "color": "$radio_background_color",
           "layer": 1
         }
@@ -647,7 +647,7 @@
         "radio_item_with_description_stack": {
           "type": "stack_panel",
           "orientation": "vertical",
-          "size": [ "100%", "100%c + 4px" ],
+          "size": ["100%", "100%c + 4px"],
 
           "layer": 2,
           "$no_description|default": true,
@@ -667,7 +667,7 @@
   "radio_item_with_label_and_content_stack": {
     "type": "stack_panel",
     "orientation": "horizontal",
-    "size": [ "100%", "100%cm" ],
+    "size": ["100%", "100%cm"],
     "layer": 1,
     "$alpha|default": 1.0,
     "$radio_label_bindings|default": [],
@@ -678,7 +678,7 @@
     "controls": [
       {
         "initial_padding@common.empty_panel": {
-          "size": [ 5, "100%sm" ]
+          "size": [5, "100%sm"]
         }
       },
       {
@@ -689,7 +689,7 @@
                 "type": "image",
                 "texture": "$radio_texture",
                 "alpha": "$alpha",
-                "size": [ 10, 10 ]
+                "size": [10, 10]
               }
             }
           ]
@@ -697,21 +697,19 @@
       },
       {
         "radio_to_content_padding@common.empty_panel": {
-          "size": [ 5, "100%sm" ]
+          "size": [5, "100%sm"]
         }
       },
       {
         "radio_content_panel@settings_common.radio_with_label_and_content_stack_item": {
           "ignored": "$no_radio_content",
-          "controls": [
-            { "radio_image@$radio_content_control": {} }
-          ]
+          "controls": [{ "radio_image@$radio_content_control": {} }]
         }
       },
       {
         "content_to_label_padding@common.empty_panel": {
           "ignored": "$no_radio_content",
-          "size": [ 5, "100%sm" ]
+          "size": [5, "100%sm"]
         }
       },
       {
@@ -725,7 +723,7 @@
                 "text": "$radio_label_text",
                 "font_type": "$radio_label_font_type",
                 "color": "$radio_label_color",
-                "size": [ "default", "default" ],
+                "size": ["default", "default"],
                 "alpha": "$alpha",
                 "bindings": "$radio_label_bindings"
               }
@@ -739,7 +737,7 @@
   "radio_description_panel": {
     "ignored": "($no_description)",
     "type": "panel",
-    "size": [ "100%", "100%c" ],
+    "size": ["100%", "100%c"],
     "layer": 1,
     "$description_font_type": "smooth",
     "$description_font_scale_factor": 1.333,
@@ -753,12 +751,12 @@
   "radio_description": {
     "type": "label",
     "color": "$main_header_text_color",
-    "size": [ "100% - 10px", "default" ],
+    "size": ["100% - 10px", "default"],
     "text": "$radio_label_desc",
     "font_type": "$description_font_type",
     "font_scale_factor": "$description_font_scale_factor",
     "shadow": false,
-    "offset": [ 4, 2 ]
+    "offset": [4, 2]
   },
 
   "radio_item_with_label_and_content": {
@@ -778,7 +776,7 @@
     "type": "panel",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ "100%", "100%cm" ],
+    "size": ["100%", "100%cm"],
     "controls": [
       { "radio_with_label_core@settings_common.radio_with_label_core": {} }
     ]
@@ -786,13 +784,13 @@
 
   "option_slider_control": {
     "type": "panel",
-    "size": [ "100% - 2px", 16 ],
+    "size": ["100% - 2px", 16],
     "controls": [
       {
         "slider@common.slider": {
-          "size": [ "100%-8px", 10 ],
-          "$slider_box_size": [ 10, 16 ],
-          "offset": [ 1, 0 ],
+          "size": ["100%-8px", 10],
+          "$slider_box_size": [10, 16],
+          "offset": [1, 0],
 
           "$option_label|default": "",
 
@@ -819,11 +817,14 @@
     // new_button_state has a layer of 2
     "layer": 3,
     "orientation": "horizontal",
-    "$options_dropdown_toggle_button_state_content|default": [ "100%", "100% - 8px" ],
+    "$options_dropdown_toggle_button_state_content|default": [
+      "100%",
+      "100% - 8px"
+    ],
     "size": "$options_dropdown_toggle_button_state_content",
     "$options_dropdown_toggle_prelabel_content|default": "common.empty_panel",
-    "$options_dropdown_toggle_left_padding|default": [ 8, "100%" ],
-    "$options_dropdown_toggle_right_padding|default": [ 8, "100%" ],
+    "$options_dropdown_toggle_left_padding|default": [8, "100%"],
+    "$options_dropdown_toggle_right_padding|default": [8, "100%"],
     "controls": [
       {
         "left_padding@common.empty_panel": {
@@ -832,13 +833,16 @@
       },
       {
         "option_content@$options_dropdown_toggle_prelabel_content": {
-          "$options_dropdown_toggle_prelabel_content_size|default": [ 0, "100%" ],
+          "$options_dropdown_toggle_prelabel_content_size|default": [0, "100%"],
           "size": "$options_dropdown_toggle_prelabel_content_size"
         }
       },
       {
         "option_content_padding@common.empty_panel": {
-          "$options_dropdown_toggle_prelabel_content_padding|default": [ 0, "100%" ],
+          "$options_dropdown_toggle_prelabel_content_padding|default": [
+            0,
+            "100%"
+          ],
           "size": "$options_dropdown_toggle_prelabel_content_padding"
         }
       },
@@ -846,7 +850,7 @@
         "label_panel": {
           "type": "panel",
           "layer": 1,
-          "size": [ "fill", "100%" ],
+          "size": ["fill", "100%"],
           "controls": [
             {
               "label@common.new_button_label": {
@@ -856,8 +860,8 @@
                 "$options_dropdown_toggle_label_font_type|default": "default",
                 "anchor_from": "left_middle",
                 "anchor_to": "left_middle",
-                "size": [ "100%", "default" ],
-                "max_size": [ "100%", "100%" ],
+                "size": ["100%", "default"],
+                "max_size": ["100%", "100%"],
                 "text": "$options_dropdown_toggle_label_binding",
                 "font_type": "$options_dropdown_toggle_label_font_type",
                 "$options_dropdown_toggle_label_shadow|default": false,
@@ -890,7 +894,7 @@
         "arrow_panel": {
           "type": "panel",
           "layer": 1,
-          "size": [ "100%c", "100%" ],
+          "size": ["100%c", "100%"],
           "controls": [
             {
               "dropdown_chevron_image@dropdown_chevron_image": {}
@@ -907,7 +911,7 @@
   },
 
   "options_dropdown_toggle_control@common_toggles.light_template_toggle": {
-    "size": [ "100%", "100%" ],
+    "size": ["100%", "100%"],
     "$button_type_panel|default": "settings_common.default_options_dropdown_toggle_button_state_content",
 
     "enabled": "$enabled",
@@ -924,7 +928,7 @@
   },
 
   "options_dropdown_dark_toggle_control@common_toggles.dark_template_toggle": {
-    "size": [ "100%", "100%" ],
+    "size": ["100%", "100%"],
     "$button_type_panel|default": "settings_common.default_options_dropdown_toggle_button_state_content",
 
     "enabled": "$enabled",
@@ -942,7 +946,7 @@
 
   "option_dropdown_control": {
     "type": "panel",
-    "$option_dropdown_size|default": [ "100%", 30 ],
+    "$option_dropdown_size|default": ["100%", 30],
     "size": "$option_dropdown_size",
     "anchor_from": "center",
     "anchor_to": "center",
@@ -975,36 +979,36 @@
   "option_info_label_with_bulb": {
     "type": "image",
     "texture": "textures/ui/text_label_box",
-    "size": [ "100%", "100%c + 6px" ],
+    "size": ["100%", "100%c + 6px"],
     "$used_fontsize|default": "normal",
     "$used_fonttype|default": "default",
     "controls": [
       {
         "stack_panel": {
           "type": "stack_panel",
-          "size": [ "100%", "100%cm" ],
+          "size": ["100%", "100%cm"],
           "orientation": "horizontal",
           "controls": [
             {
               "padding1@common.empty_panel": {
-                "size": [ 2, 19 ]
+                "size": [2, 19]
               }
             },
             {
               "bulb_panel": {
                 "type": "stack_panel",
                 "orientation": "vertical",
-                "size": [ "100%c", "100%sm" ],
+                "size": ["100%c", "100%sm"],
                 "controls": [
                   {
                     "padding1@common.empty_panel": {
-                      "size": [ 0, "fill" ]
+                      "size": [0, "fill"]
                     }
                   },
                   {
                     "bulb_image": {
                       "type": "image",
-                      "size": [ 15, 19 ],
+                      "size": [15, 19],
                       "bilinear": true,
                       "texture": "textures/ui/infobulb",
                       "layer": 1
@@ -1012,7 +1016,7 @@
                   },
                   {
                     "padding2@common.empty_panel": {
-                      "size": [ 0, "fill" ]
+                      "size": [0, "fill"]
                     }
                   }
                 ]
@@ -1020,19 +1024,19 @@
             },
             {
               "padding2@common.empty_panel": {
-                "size": [ 2, 0 ]
+                "size": [2, 0]
               }
             },
             {
               "label_panel": {
                 "type": "panel",
-                "size": [ "fill", "100%c" ],
+                "size": ["fill", "100%c"],
                 "controls": [
                   {
                     "info_label": {
                       "type": "label",
                       "color": "$main_header_text_color",
-                      "size": [ "100% - 2px", "default" ],
+                      "size": ["100% - 2px", "default"],
                       "layer": 1,
                       "text": "$container_text_binding_name",
                       "font_size": "$used_fontsize",
@@ -1056,7 +1060,7 @@
   "option_info_label_with_image": {
     "type": "image",
     "texture": "textures/ui/text_label_box",
-    "size": [ "100%", "100%c + 6px" ],
+    "size": ["100%", "100%c + 6px"],
     "$used_fontsize|default": "normal",
     "$used_fonttype|default": "default",
     "controls": [
@@ -1064,7 +1068,7 @@
         "control": {
           "type": "label",
           "color": "$main_header_text_color",
-          "size": [ "100% - 8px", "default" ],
+          "size": ["100% - 8px", "default"],
           "layer": 1,
           "text": "$container_text_binding_name",
           "font_size": "$used_fontsize",
@@ -1101,8 +1105,8 @@
 
   "option_radio_dropdown_group": {
     "type": "panel",
-    "size": [ "100% - 4px", "100%c + 4px" ],
-    "offset": [ 2, 1 ],
+    "size": ["100% - 4px", "100%c + 4px"],
+    "offset": [2, 1],
     "$toggle_tts_header": "",
     "$toggle_tts_name": "accessibility.dropdown.listItem",
     "$toggle_tts_toggle_on_text": "accessibility.state.selected",
@@ -1144,7 +1148,6 @@
   "option_dropdown@settings_common.option_generic": {
     "$control_name": "settings_common.option_dropdown_control"
   },
-
 
   "option_dropdown_no_scroll@settings_common.option_generic": {
     "$control_name": "settings_common.option_dropdown_control_no_scroll"
@@ -1196,38 +1199,38 @@
   "settings_content": {
     "type": "panel",
     "controls": [
-		// Adding fill background color for all settings.
-		{
-      "background": {
-        "$layer|default": -1,
-        "variables": [
-          {
-            "requires": "($is_realm_slot or $realm_no_world_edit)",
-            "$layer": -2
-          }
-        ],
-        "type": "image",
-        "texture": "textures/ui/White",
-        "keep_ratio": false,
-        "size": [ "100%", "100%sm" ],
-        "color": [ 0.192, 0.196, 0.2 ], // First test: [0.239, 0.204, 0.204]
-        "offset": [ 0, 0 ],
-        "alpha":0.0,
-        "layer": "$layer",
-        "anchor_from": "top_left",
-        "anchor_to": "top_left"
-      }
-		},
+      // Adding fill background color for all settings.
+      {
+        "background": {
+          "$layer|default": -1,
+          "variables": [
+            {
+              "requires": "($is_realm_slot or $realm_no_world_edit)",
+              "$layer": -2
+            }
+          ],
+          "type": "image",
+          "texture": "textures/ui/White",
+          "keep_ratio": false,
+          "size": ["100%", "100%sm"],
+          "color": [0.192, 0.196, 0.2], // First test: [0.239, 0.204, 0.204]
+          "offset": [0, 0],
+          "alpha": 0.0,
+          "layer": "$layer",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      },
 
       {
         "stack_panel": {
           "type": "stack_panel",
-          "size": [ "100%", "100%" ],
+          "size": ["100%", "100%"],
           "controls": [
             {
               "content_panel": {
                 "type": "panel",
-                "size": [ "100%", "fill" ],
+                "size": ["100%", "fill"],
 
                 "controls": [
                   {
@@ -1238,10 +1241,8 @@
                   {
                     "container": {
                       "type": "panel",
-                      "size": [ "100%", "100% - 4px" ],
-                      "controls": [
-                        { "$dialog_content@$dialog_content": {} }
-                      ]
+                      "size": ["100%", "100% - 4px"],
+                      "controls": [{ "$dialog_content@$dialog_content": {} }]
                     }
                   }
                 ]
@@ -1267,10 +1268,10 @@
 
   "toggle_button_control": {
     "type": "panel",
-    "$glyph_offset|default": [ 5, 0 ],
+    "$glyph_offset|default": [5, 0],
     "$glyph_anchor_from|default": "left_middle",
     "$glyph_anchor_to|default": "left_middle",
-    "$button_label_offset|default": [ 34, 0 ],
+    "$button_label_offset|default": [34, 0],
     "layer": 2,
     "controls": [
       {
@@ -1309,7 +1310,7 @@
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
           "color": "$glyph_color",
-          "offset": [ 5, 0 ],
+          "offset": [5, 0],
           "layer": 5,
           "size": "$glyph_size",
           "visible": false,
@@ -1322,8 +1323,8 @@
           "type": "label",
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
-          "size": [ "100% - 38px", "default" ],
-          "max_size": [ "100% - 38px", "100% - 4px" ],
+          "size": ["100% - 38px", "default"],
+          "max_size": ["100% - 38px", "100% - 4px"],
           "offset": "$button_label_offset",
           "text": "$button_text",
           "layer": 3,
@@ -1351,8 +1352,8 @@
   "section_toggle_base@common_toggles.light_ui_toggle": {
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ "100%", "30px" ],
-    "$button_size_override": [ "100%", "100% + 1px" ],
+    "size": ["100%", "30px"],
+    "$button_size_override": ["100%", "100% + 1px"],
     "$button_type_panel": "settings_common.toggle_button_control",
 
     "$radio_toggle_group": true,
@@ -1404,35 +1405,35 @@
     "orientation": "horizontal",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ "100%", 15 ],
-    "offset": [ 0, 3.5 ],
+    "size": ["100%", 15],
+    "offset": [0, 3.5],
     "controls": [
       {
         "left_padding": {
           "type": "panel",
-          "size": [ 18, "100%" ]
+          "size": [18, "100%"]
         }
       },
       {
         "dialog_title_label@settings_common.dialog_title_label": {
-          "size": [ "40% - 3px", "100%" ]
+          "size": ["40% - 3px", "100%"]
         }
       },
       {
         "center_padding": {
           "type": "panel",
-          "size": [ 9, "100%" ]
+          "size": [9, "100%"]
         }
       },
       {
         "section_title_label@settings_common.section_title_label": {
-          "size": [ "fill", "100%" ]
+          "size": ["fill", "100%"]
         }
       },
       {
         "right_padding_is_always_right": {
           "type": "panel",
-          "size": [ 22, "100%" ]
+          "size": [22, "100%"]
         }
       }
     ]
@@ -1452,25 +1453,23 @@
 
   "selector_group_label": {
     "type": "label",
-    "size": [ "100%", "default" ],
+    "size": ["100%", "default"],
     "color": "$main_header_text_color",
-    "offset": [ 15, 0 ]
+    "offset": [15, 0]
   },
 
   "scrollable_selector_area_content": {
     "type": "panel",
-    "offset": [ "2px", "2px" ],
-    "size": [ "100% - 4px", "100%c + 4px" ],
-    "controls": [
-      { "$selector_stack_panel@$selector_stack_panel": {} }
-    ]
+    "offset": ["2px", "2px"],
+    "size": ["100% - 4px", "100%c + 4px"],
+    "controls": [{ "$selector_stack_panel@$selector_stack_panel": {} }]
   },
 
   // left side
   "selector_area": {
     "type": "panel",
-    "offset": [ 2, "21px" ],
-    "size": [ "40% - 3px", "100% - 19px" ],
+    "offset": [2, "21px"],
+    "size": ["40% - 3px", "100% - 19px"],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "layer": 2,
@@ -1489,8 +1488,8 @@
         "scrolling_panel@common.scrolling_panel": {
           "$scrolling_content": "settings_common.scrollable_selector_area_content",
           "$show_background": false,
-          "$scroll_size": [ "5px", "100% - 4px" ],
-          "$scroll_bar_left_padding_size": [ 1, 0 ]
+          "$scroll_size": ["5px", "100% - 4px"],
+          "$scroll_bar_left_padding_size": [1, 0]
         }
       }
     ]
@@ -1499,8 +1498,8 @@
   // right side
   "content_area": {
     "type": "panel",
-    "offset": [ "-1px", "21px" ],
-    "size": [ "60% - 8px", "100% - 19px" ],
+    "offset": ["-1px", "21px"],
+    "size": ["60% - 8px", "100% - 19px"],
     "anchor_from": "top_right",
     "anchor_to": "top_right",
     "layer": 1,
@@ -1521,7 +1520,7 @@
       {
         "control": {
           "type": "stack_panel",
-          "size": [ "100%", "100%" ],
+          "size": ["100%", "100%"],
           "anchor_from": "top_right",
           "anchor_to": "top_right",
           "controls": [
@@ -1529,7 +1528,7 @@
               "header_panel": {
                 "type": "panel",
                 "layer": 20,
-                "size": [ "100%", "100%c" ],
+                "size": ["100%", "100%c"],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "controls": [
@@ -1541,18 +1540,18 @@
             },
             {
               "scrolling_panel@common.scrolling_panel": {
-                "size": [ "100%", "fill" ],
+                "size": ["100%", "fill"],
                 "$scrolling_content": "$section_content_panels",
                 "$show_background": false,
-                "$scroll_size": [ "5px", "100% - 4px" ],
-                "$scroll_bar_left_padding_size": [ 1, 0 ]
+                "$scroll_size": ["5px", "100% - 4px"],
+                "$scroll_bar_left_padding_size": [1, 0]
               }
             },
             {
               "footer_panel": {
                 "type": "panel",
                 "layer": 20,
-                "size": [ "100%", "100%c" ],
+                "size": ["100%", "100%c"],
                 "anchor_from": "bottom_left",
                 "anchor_to": "bottom_left",
                 "controls": [
@@ -1571,8 +1570,8 @@
   // divider between two sides
   "section_divider": {
     "type": "image",
-    "offset": [ "40%", "20px" ],
-    "size": [ "4px", "100% - 18px" ],
+    "offset": ["40%", "20px"],
+    "size": ["4px", "100% - 18px"],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "layer": 3,

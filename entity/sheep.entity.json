@@ -32,9 +32,7 @@
           }
         ]
       },
-      "render_controllers": [
-        "controller.render.sheep"
-      ],
+      "render_controllers": ["controller.render.sheep"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 4

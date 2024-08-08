@@ -3,7 +3,7 @@
 
   "right_panel": {
     "type": "input_panel",
-    "size": [ "100%", "100%" ],
+    "size": ["100%", "100%"],
     "layer": 5,
     "controls": [
       {

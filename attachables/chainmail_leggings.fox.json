@@ -3,7 +3,9 @@
   "minecraft:attachable": {
     "description": {
       "identifier": "minecraft:chainmail_leggings.fox",
-      "item": { "minecraft:chainmail_leggings": "query.owner_identifier == 'minecraft:fox'" },
+      "item": {
+        "minecraft:chainmail_leggings": "query.owner_identifier == 'minecraft:fox'"
+      },
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"
@@ -18,7 +20,7 @@
       "scripts": {
         "parent_setup": "variable.leg_layer_visible = 0.0;"
       },
-      "render_controllers": [ "controller.render.armor.fox" ]
+      "render_controllers": ["controller.render.armor.fox"]
     }
   }
 }

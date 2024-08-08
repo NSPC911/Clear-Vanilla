@@ -25,13 +25,9 @@
         "move": "controller.animation.fox.move"
       },
       "scripts": {
-        "animate": [
-          "setup",
-          { "baby_transform": "query.is_baby" },
-          "move"
-        ]
+        "animate": ["setup", { "baby_transform": "query.is_baby" }, "move"]
       },
-      "render_controllers": [ "controller.render.fox" ],
+      "render_controllers": ["controller.render.fox"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 26

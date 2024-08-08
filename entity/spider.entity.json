@@ -19,10 +19,8 @@
         "look_at_target": "animation.spider.look_at_target",
         "walk": "animation.spider.walk"
       },
-      "animation_controllers": [
-        { "move": "controller.animation.spider.move" }
-      ],
-      "render_controllers": [ "controller.render.spider" ],
+      "animation_controllers": [{ "move": "controller.animation.spider.move" }],
+      "render_controllers": ["controller.render.spider"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 34

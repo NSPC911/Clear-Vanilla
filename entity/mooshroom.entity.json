@@ -23,7 +23,7 @@
         { "move": "controller.animation.mooshroom.move" },
         { "baby": "controller.animation.mooshroom.baby" }
       ],
-      "render_controllers": [ "controller.render.mooshroom" ],
+      "render_controllers": ["controller.render.mooshroom"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 9

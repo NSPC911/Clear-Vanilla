@@ -12,9 +12,7 @@
       "geometry": {
         "default": "geometry.ravager"
       },
-      "render_controllers": [
-        "controller.render.ravager"
-      ],
+      "render_controllers": ["controller.render.ravager"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 65
@@ -35,10 +33,7 @@
           "variable.bite_anim_duration = 0.75f;", // in seconds
           "variable.bite_neck_length = 10;"
         ],
-        "animate": [
-          "move",
-          "head"
-        ]
+        "animate": ["move", "head"]
       },
       "particle_effects": {
         "stun_particles": "minecraft:stunned_emitter"

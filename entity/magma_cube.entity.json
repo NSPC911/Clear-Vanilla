@@ -27,7 +27,7 @@
       "animation_controllers": [
         { "general": "controller.animation.magma_cube.general" }
       ],
-      "render_controllers": [ "controller.render.magma_cube" ],
+      "render_controllers": ["controller.render.magma_cube"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 46

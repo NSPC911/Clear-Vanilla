@@ -40,7 +40,7 @@
         { "stand_up": "controller.animation.sniffer.stand_up" },
         { "feeling_happy": "controller.animation.sniffer.feeling_happy" }
       ],
-      "render_controllers": [ "controller.render.sniffer" ],
+      "render_controllers": ["controller.render.sniffer"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 76

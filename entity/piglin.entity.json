@@ -60,7 +60,7 @@
         "riding.arms": "animation.humanoid.riding.arms",
         "riding.legs": "animation.humanoid.riding.legs"
       },
-      "render_controllers": [ "controller.render.piglin" ],
+      "render_controllers": ["controller.render.piglin"],
       "enable_attachables": true
     }
   }

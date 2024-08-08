@@ -54,9 +54,7 @@
           }
         ]
       },
-      "render_controllers": [
-        "controller.render.donkey.v3"
-      ]
+      "render_controllers": ["controller.render.donkey.v3"]
     }
   }
 }

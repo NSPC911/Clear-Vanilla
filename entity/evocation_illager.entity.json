@@ -15,10 +15,7 @@
       },
       "scripts": {
         "scale": "0.9375",
-        "animate": [
-          "controller_general",
-          "controller_move"
-        ]
+        "animate": ["controller_general", "controller_move"]
       },
       "animations": {
         "general": "animation.evoker.general",
@@ -32,7 +29,7 @@
       "particle_effects": {
         "spell": "minecraft:evoker_spell"
       },
-      "render_controllers": [ "controller.render.evoker" ],
+      "render_controllers": ["controller.render.evoker"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 58

@@ -25,7 +25,7 @@
           "general": "controller.animation.fish.general"
         }
       ],
-      "render_controllers": [ "controller.render.cod" ],
+      "render_controllers": ["controller.render.cod"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 20

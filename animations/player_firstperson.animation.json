@@ -11,7 +11,7 @@
           "rotation": {
             "0.0": [0, 0, 0],
             "0.01": [-37.5, 21.5, 16.5],
-            "0.05": [-51, 37, 24.75 ],
+            "0.05": [-51, 37, 24.75],
             "0.07": [-45.5, 47, 27.5],
             "0.12": [-41, 52.5, 23.5],
             "0.17": [-40, 48, 22],
@@ -41,7 +41,11 @@
       "loop": true,
       "bones": {
         "body": {
-          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+          "rotation": [
+            "query.target_x_rotation",
+            "query.target_y_rotation",
+            0.0
+          ]
         }
       }
     },
@@ -50,13 +54,17 @@
       "override_previous_animation": true,
       "bones": {
         "leftarm": {
-          "position": [ "3.0 - variable.item_use_normalized * 8.5", "-4.0 + variable.short_arm_offset_left * 1.125 + variable.item_use_normalized", "9.5 - (1 - variable.item_use_normalized)" ],
-          "rotation": [ 150.0, -75.0, 85.0 ],
-          "scale": [ 0.75, 0.75, 0.75 ]
+          "position": [
+            "3.0 - variable.item_use_normalized * 8.5",
+            "-4.0 + variable.short_arm_offset_left * 1.125 + variable.item_use_normalized",
+            "9.5 - (1 - variable.item_use_normalized)"
+          ],
+          "rotation": [150.0, -75.0, 85.0],
+          "scale": [0.75, 0.75, 0.75]
         },
         "rightitem": {
-          "position": [ 0.0, 3.0, 0.0 ],
-          "rotation": [ -25.0, -5.0, -10.0 ]
+          "position": [0.0, 3.0, 0.0],
+          "rotation": [-25.0, -5.0, -10.0]
         }
       }
     },
@@ -64,18 +72,27 @@
       "loop": true,
       "bones": {
         "rightitem": {
-          "position": [ 6.0, 5.0, -12.5 ],
-          "rotation": [ 0.0, -5.0, -5.0 ],
+          "position": [6.0, 5.0, -12.5],
+          "rotation": [0.0, -5.0, -5.0],
           "scale": 1.2
         }
       }
     },
-    "animation.player.first_person.empty_hand" : { //I would use an animation controller for the shield version, but it doesn't work correctly.
-      "loop" : true,
-      "bones" : {
-        "rightarm" : {
-          "position" : [ "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? 13.5 : 13.05", "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? -9.5 : -7.5 + variable.short_arm_offset_right * 1.5", "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? 12.0 : 10.5" ],
-          "rotation" : [ "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? 95.0 + variable.is_using_vr * 7.5 : 95.5 + variable.is_using_vr * 7.5", "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? -45.0 + variable.is_using_vr * 7.5 : -40.0 + variable.is_using_vr * 7.5", "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? 115.0 + variable.is_using_vr * -2.5 : 116.0 + variable.is_using_vr * -2.5" ]
+    "animation.player.first_person.empty_hand": {
+      //I would use an animation controller for the shield version, but it doesn't work correctly.
+      "loop": true,
+      "bones": {
+        "rightarm": {
+          "position": [
+            "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? 13.5 : 13.05",
+            "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? -9.5 : -7.5 + variable.short_arm_offset_right * 1.5",
+            "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? 12.0 : 10.5"
+          ],
+          "rotation": [
+            "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? 95.0 + variable.is_using_vr * 7.5 : 95.5 + variable.is_using_vr * 7.5",
+            "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? -45.0 + variable.is_using_vr * 7.5 : -40.0 + variable.is_using_vr * 7.5",
+            "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:shield') ? 115.0 + variable.is_using_vr * -2.5 : 116.0 + variable.is_using_vr * -2.5"
+          ]
         }
       }
     },
@@ -83,14 +100,22 @@
       "loop": true,
       "bones": {
         "leftarm": {
-          "position": [ "-17.75 + variable.is_vertical_splitscreen * 7.0", "-9.75 - variable.map_angle * 8.0 + variable.is_vertical_splitscreen * 0.6 - variable.short_arm_offset_left * -1.0", "10.0 - variable.map_angle * 8.0 + variable.short_arm_offset_left" ],
-          "rotation": [ 40.0, -22.5, -152.5 ],
-          "scale": [ 1.20, 1.20, 1.20 ]
+          "position": [
+            "-17.75 + variable.is_vertical_splitscreen * 7.0",
+            "-9.75 - variable.map_angle * 8.0 + variable.is_vertical_splitscreen * 0.6 - variable.short_arm_offset_left * -1.0",
+            "10.0 - variable.map_angle * 8.0 + variable.short_arm_offset_left"
+          ],
+          "rotation": [40.0, -22.5, -152.5],
+          "scale": [1.2, 1.2, 1.2]
         },
         "rightarm": {
-          "position": [ "17.25 + variable.is_vertical_splitscreen * 7.0", "-9.75 - variable.map_angle * 8.0 + variable.is_vertical_splitscreen * 0.6 - variable.short_arm_offset_right * -1.0", "10.0 - variable.map_angle * 8.0 + variable.short_arm_offset_right" ],
-          "rotation": [ 40.0, 22.5, 152.5 ],
-          "scale": [ 1.20, 1.20, 1.20 ]
+          "position": [
+            "17.25 + variable.is_vertical_splitscreen * 7.0",
+            "-9.75 - variable.map_angle * 8.0 + variable.is_vertical_splitscreen * 0.6 - variable.short_arm_offset_right * -1.0",
+            "10.0 - variable.map_angle * 8.0 + variable.short_arm_offset_right"
+          ],
+          "rotation": [40.0, 22.5, 152.5],
+          "scale": [1.2, 1.2, 1.2]
         }
       }
     },
@@ -98,12 +123,24 @@
       "loop": true,
       "bones": {
         "leftarm": {
-          "position": [ "math.sin(variable.first_person_rotation_factor * variable.attack_time * 112.0) * 2.0", "math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 3.75 - variable.first_person_rotation_factor * variable.attack_time * 1.25", "math.sin(variable.first_person_rotation_factor * variable.attack_time * 1.0) * 5.75" ],
-          "rotation": [ 0.0, 0.0, 0.0 ]
+          "position": [
+            "math.sin(variable.first_person_rotation_factor * variable.attack_time * 112.0) * 2.0",
+            "math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 3.75 - variable.first_person_rotation_factor * variable.attack_time * 1.25",
+            "math.sin(variable.first_person_rotation_factor * variable.attack_time * 1.0) * 5.75"
+          ],
+          "rotation": [0.0, 0.0, 0.0]
         },
         "rightarm": {
-          "position": [ "(variable.first_person_rotation_factor * variable.attack_time * 6.0) * (-3.0 + variable.short_arm_offset_right * 0.25)", "(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * 6.0) * (1.85 - variable.short_arm_offset_right * 0.125)", "math.sin(variable.first_person_rotation_factor * variable.attack_time * 120.0) * 5.25" ],
-          "rotation": [ "variable.map_angle * 90.0", 0.0, "variable.attack_time * (30 + variable.short_arm_offset_right * 5)" ]
+          "position": [
+            "(variable.first_person_rotation_factor * variable.attack_time * 6.0) * (-3.0 + variable.short_arm_offset_right * 0.25)",
+            "(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * 6.0) * (1.85 - variable.short_arm_offset_right * 0.125)",
+            "math.sin(variable.first_person_rotation_factor * variable.attack_time * 120.0) * 5.25"
+          ],
+          "rotation": [
+            "variable.map_angle * 90.0",
+            0.0,
+            "variable.attack_time * (30 + variable.short_arm_offset_right * 5)"
+          ]
         }
       }
     },
@@ -111,9 +148,13 @@
       "loop": true,
       "bones": {
         "rightarm": {
-          "position": [ "14.50 - variable.is_vertical_splitscreen * 0.75 - variable.short_arm_offset_right * 0.0625", "-8.25 + variable.short_arm_offset_right * 1.575 + math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 200.0) * 2.75 - variable.first_person_rotation_factor * variable.attack_time * 3.0 - variable.is_horizontal_splitscreen", "11.5 + math.sin(variable.first_person_rotation_factor * variable.attack_time * 120.0) * 3.5 + variable.is_horizontal_splitscreen * 3.5 + variable.short_arm_offset_right * 0.1125" ],
-          "rotation": [ 195.0, 182.5, -5.0 ],
-          "scale": [ 0.75, 0.75, 0.75 ]
+          "position": [
+            "14.50 - variable.is_vertical_splitscreen * 0.75 - variable.short_arm_offset_right * 0.0625",
+            "-8.25 + variable.short_arm_offset_right * 1.575 + math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 200.0) * 2.75 - variable.first_person_rotation_factor * variable.attack_time * 3.0 - variable.is_horizontal_splitscreen",
+            "11.5 + math.sin(variable.first_person_rotation_factor * variable.attack_time * 120.0) * 3.5 + variable.is_horizontal_splitscreen * 3.5 + variable.short_arm_offset_right * 0.1125"
+          ],
+          "rotation": [195.0, 182.5, -5.0],
+          "scale": [0.75, 0.75, 0.75]
         }
       }
     },
@@ -121,9 +162,13 @@
       "loop": true,
       "bones": {
         "leftarm": {
-          "position": [ "-14.50 + variable.is_horizontal_splitscreen * 2.0 + variable.is_vertical_splitscreen * 8.7 + variable.short_arm_offset_right * 0.0625", "-8.250 + variable.short_arm_offset_left * 1.575", "11.50 + variable.is_horizontal_splitscreen * 0.5 + variable.short_arm_offset_left * 0.1125" ],
-          "rotation": [ 195.0, 182.5, 2.5 ],
-          "scale": [ 0.75, 0.75, 0.75 ]
+          "position": [
+            "-14.50 + variable.is_horizontal_splitscreen * 2.0 + variable.is_vertical_splitscreen * 8.7 + variable.short_arm_offset_right * 0.0625",
+            "-8.250 + variable.short_arm_offset_left * 1.575",
+            "11.50 + variable.is_horizontal_splitscreen * 0.5 + variable.short_arm_offset_left * 0.1125"
+          ],
+          "rotation": [195.0, 182.5, 2.5],
+          "scale": [0.75, 0.75, 0.75]
         }
       }
     },
@@ -131,8 +176,16 @@
       "loop": true,
       "bones": {
         "rightarm": {
-          "position": [ "5.0 * math.sin(variable.first_person_rotation_factor * variable.attack_time * 112.0)", "(math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 200.0) - 0.8) * 8.75 + 5.0", "math.sin(variable.first_person_rotation_factor * variable.attack_time * 120.0) * 15.0" ],
-          "rotation": [ "30.7 * math.sin(variable.first_person_rotation_factor * variable.attack_time * -180.0 - 45.0) * 1.5", 0.0, "21.8 * math.sin(variable.first_person_rotation_factor * variable.attack_time * 200.0 + 30.0) * 1.25" ]
+          "position": [
+            "5.0 * math.sin(variable.first_person_rotation_factor * variable.attack_time * 112.0)",
+            "(math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 200.0) - 0.8) * 8.75 + 5.0",
+            "math.sin(variable.first_person_rotation_factor * variable.attack_time * 120.0) * 15.0"
+          ],
+          "rotation": [
+            "30.7 * math.sin(variable.first_person_rotation_factor * variable.attack_time * -180.0 - 45.0) * 1.5",
+            0.0,
+            "21.8 * math.sin(variable.first_person_rotation_factor * variable.attack_time * 200.0 + 30.0) * 1.25"
+          ]
         }
       }
     },
@@ -140,10 +193,10 @@
       "loop": true,
       "bones": {
         "leftarm": {
-          "position": [ 0.0, 0.0, 0.0 ]
+          "position": [0.0, 0.0, 0.0]
         },
         "rightarm": {
-          "position": [ 0.0, 0.0, 0.0 ]
+          "position": [0.0, 0.0, 0.0]
         }
       }
     }

@@ -29,7 +29,7 @@
         { "general": "controller.animation.turtle.general" },
         { "move": "controller.animation.turtle.move" }
       ],
-      "render_controllers": [ "controller.render.turtle" ],
+      "render_controllers": ["controller.render.turtle"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 24

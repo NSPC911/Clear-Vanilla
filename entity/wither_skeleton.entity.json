@@ -44,13 +44,19 @@
         { "charging": "controller.animation.humanoid.charging" },
         { "attack": "controller.animation.humanoid.attack" },
         { "sneaking": "controller.animation.humanoid.sneaking" },
-        { "damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs" },
+        {
+          "damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs"
+        },
         { "bow_and_arrow": "controller.animation.humanoid.bow_and_arrow" },
-        { "use_item_progress": "controller.animation.humanoid.use_item_progress" },
-        { "wither_skeleton_attack": "controller.animation.wither_skeleton.attack" },
+        {
+          "use_item_progress": "controller.animation.humanoid.use_item_progress"
+        },
+        {
+          "wither_skeleton_attack": "controller.animation.wither_skeleton.attack"
+        },
         { "swimming": "controller.animation.zombie.swimming" }
       ],
-      "render_controllers": [ "controller.render.wither_skeleton" ],
+      "render_controllers": ["controller.render.wither_skeleton"],
       "enable_attachables": true,
       "spawn_egg": {
         "texture": "spawn_egg",

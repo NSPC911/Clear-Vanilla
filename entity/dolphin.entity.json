@@ -16,7 +16,7 @@
       "animation_controllers": [
         { "general": "controller.animation.dolphin.general" }
       ],
-      "render_controllers": [ "controller.render.dolphin" ],
+      "render_controllers": ["controller.render.dolphin"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 23

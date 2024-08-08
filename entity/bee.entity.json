@@ -25,7 +25,7 @@
         "bee_no_stinger": "animation.bee.no_stinger",
         "bee_fly_bobbing": "animation.bee.fly.bobbing",
         "bee_root_controller": "controller.animation.bee.root"
-      },      
+      },
       "particle_effects": {
         "nectar_dripping": "minecraft:nectar_drip_particle"
       },
@@ -35,7 +35,7 @@
           { "bee_no_stinger": "query.mark_variant == 1" }
         ]
       },
-      "render_controllers": [ "controller.render.bee" ]
+      "render_controllers": ["controller.render.bee"]
     }
   }
 }

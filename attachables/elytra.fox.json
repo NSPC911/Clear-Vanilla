@@ -3,7 +3,9 @@
   "minecraft:attachable": {
     "description": {
       "identifier": "minecraft:elytra.fox",
-      "item": { "minecraft:elytra": "query.owner_identifier == 'minecraft:fox'" },
+      "item": {
+        "minecraft:elytra": "query.owner_identifier == 'minecraft:fox'"
+      },
       "materials": {
         "default": "elytra",
         "enchanted": "elytra_glint"
@@ -25,11 +27,9 @@
       },
       "scripts": {
         "parent_setup": "variable.chest_layer_visible = 0.0;",
-        "animate": [
-          "default_controller"
-        ]
+        "animate": ["default_controller"]
       },
-      "render_controllers": [ "controller.render.armor.fox" ]
+      "render_controllers": ["controller.render.armor.fox"]
     }
   }
 }

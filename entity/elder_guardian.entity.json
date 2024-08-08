@@ -39,15 +39,9 @@
           "variable.tail_base_angle = Math.sin(variable.tail_swim*20.0);"
         ],
         "scale": "2.35",
-        "animate": [
-          "setup",
-          "spikes",
-          "swim",
-          "look_at_target",
-          "move_eye"
-        ]
+        "animate": ["setup", "spikes", "swim", "look_at_target", "move_eye"]
       },
-      "render_controllers": [ "controller.render.guardian" ],
+      "render_controllers": ["controller.render.guardian"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 44

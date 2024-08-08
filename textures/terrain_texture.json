@@ -165,10 +165,7 @@
       "textures": "textures/items/cherry_sign"
     },
     "comparator_carried": {
-      "textures": [
-        "textures/items/comparator",
-        "textures/items/comparator"
-      ]
+      "textures": ["textures/items/comparator", "textures/items/comparator"]
     },
     "comparator_stone_slab": {
       "textures": [
@@ -514,9 +511,7 @@
       "textures": "textures/blocks/deepslate/infested_deepslate_top"
     },
     "jukebox_bottom": {
-      "textures": [
-        "textures/blocks/jukebox_bottom"
-      ]
+      "textures": ["textures/blocks/jukebox_bottom"]
     },
     "jungle_button": {
       "textures": "textures/blocks/jungle_button"
@@ -595,24 +590,16 @@
       "textures": "textures/blocks/slab_sides/oxidized_cut_copper_slab_double"
     },
     "piston_bottom_sticky": {
-      "textures": [
-        "textures/blocks/sticky_bottom"
-      ]
+      "textures": ["textures/blocks/sticky_bottom"]
     },
     "piston_inner_sticky": {
-      "textures": [
-        "textures/blocks/piston_inner"
-      ]
+      "textures": ["textures/blocks/piston_inner"]
     },
     "piston_side_sticky": {
-      "textures": [
-        "textures/blocks/sticky_side"
-      ]
+      "textures": ["textures/blocks/sticky_side"]
     },
     "piston_top_sticky": {
-      "textures": [
-        "textures/blocks/sticky_top"
-      ]
+      "textures": ["textures/blocks/sticky_top"]
     },
     "polished_blackstone_button": {
       "textures": "textures/blocks/polished_blackstone_button"
@@ -662,10 +649,7 @@
       "textures": "textures/blocks/redstone_ore_off"
     },
     "repeater_carried": {
-      "textures": [
-        "textures/items/repeater",
-        "textures/items/repeater"
-      ]
+      "textures": ["textures/items/repeater", "textures/items/repeater"]
     },
     "repeater_floor": {
       "textures": [

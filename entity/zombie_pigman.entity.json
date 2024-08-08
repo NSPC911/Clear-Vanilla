@@ -42,7 +42,9 @@
         "zombie_attack_bare_hand": "animation.zombie.attack_bare_hand"
       },
       "animation_controllers": [
-        { "humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head" },
+        {
+          "humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head"
+        },
         { "humanoid_base_pose": "controller.animation.humanoid.base_pose" },
         { "look_at_target": "controller.animation.humanoid.look_at_target" },
         { "move": "controller.animation.humanoid.move" },
@@ -53,13 +55,19 @@
         { "attack": "controller.animation.humanoid.attack" },
         { "sneaking": "controller.animation.humanoid.sneaking" },
         { "bob": "controller.animation.humanoid.bob" },
-        { "damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs" },
+        {
+          "damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs"
+        },
         { "bow_and_arrow": "controller.animation.humanoid.bow_and_arrow" },
         { "swimming": "controller.animation.humanoid.swimming" },
-        { "use_item_progress": "controller.animation.humanoid.use_item_progress" },
-        { "zombie_attack_bare_hand": "controller.animation.zombie.attack_bare_hand" }
+        {
+          "use_item_progress": "controller.animation.humanoid.use_item_progress"
+        },
+        {
+          "zombie_attack_bare_hand": "controller.animation.zombie.attack_bare_hand"
+        }
       ],
-      "render_controllers": [ "controller.render.zombie_pigman" ],
+      "render_controllers": ["controller.render.zombie_pigman"],
       "enable_attachables": true
     }
   }

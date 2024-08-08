@@ -42,7 +42,7 @@
         { "move": "controller.animation.llama.move" },
         { "baby": "controller.animation.llama.baby" }
       ],
-      "render_controllers": [ "controller.render.llama" ],
+      "render_controllers": ["controller.render.llama"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 13

@@ -38,9 +38,7 @@
         "look_at_player": "animation.horse.v3.look_at_player"
       },
       "scripts": {
-        "initialize": [
-          "variable.eat_anim = 0.0;"
-        ],
+        "initialize": ["variable.eat_anim = 0.0;"],
         "pre_animation": [
           "variable.armor_texture_slot = query.armor_texture_slot(1);",
           "variable.eat_anim = math.clamp(variable.eat_anim + (query.is_grazing ? ((1.0 - variable.eat_anim) * 0.4 + 0.05) : -variable.eat_anim * 0.4 - 0.05) * query.delta_time * 20.0, 0.0, 1.0);",
@@ -66,9 +64,7 @@
           }
         ]
       },
-      "render_controllers": [
-        "controller.render.horse.v3"
-      ],
+      "render_controllers": ["controller.render.horse.v3"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 14

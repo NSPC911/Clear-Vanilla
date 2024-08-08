@@ -47,9 +47,7 @@
           "move": "controller.animation.axolotl.move"
         }
       ],
-      "render_controllers": [
-        "controller.render.axolotl"
-      ],
+      "render_controllers": ["controller.render.axolotl"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 53

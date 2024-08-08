@@ -3,7 +3,7 @@
 
   "player_position": {
     "type": "image",
-    "size": [ "100%c + 6px", "100%c + 2px" ],
+    "size": ["100%c + 6px", "100%c + 2px"],
     "texture": "textures/ui/Black",
     "alpha": 0.0,
     "controls": [

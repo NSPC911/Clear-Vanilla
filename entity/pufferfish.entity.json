@@ -18,9 +18,7 @@
           "variable.ZRot = !query.is_in_water ? Math.cos(query.time_stamp * 14.32) * 90 : 0.0;",
           "variable.AnimationAmountBlend = Math.lerp(variable.AnimationAmountPrev, variable.AnimationAmount, query.frame_alpha);"
         ],
-        "animate": [
-          "general"
-        ]
+        "animate": ["general"]
       },
       "animations": {
         "flop": "animation.pufferfish.flop",

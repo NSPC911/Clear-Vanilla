@@ -14,9 +14,7 @@
       "geometry": {
         "default": "geometry.vindicator.v1.8"
       },
-      "render_controllers": [
-        "controller.render.vindicator"
-      ],
+      "render_controllers": ["controller.render.vindicator"],
       "enable_attachables": true,
       "spawn_egg": {
         "texture": "spawn_egg",

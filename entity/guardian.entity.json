@@ -38,15 +38,9 @@
           "variable.tail_swim = query.life_time < 0.1 ? 0.0 : (variable.tail_swim + variable.tail_animation_speed);",
           "variable.tail_base_angle = Math.sin(variable.tail_swim*20.0);"
         ],
-        "animate": [
-          "setup",
-          "spikes",
-          "swim",
-          "look_at_target",
-          "move_eye"
-        ]
+        "animate": ["setup", "spikes", "swim", "look_at_target", "move_eye"]
       },
-      "render_controllers": [ "controller.render.guardian" ],
+      "render_controllers": ["controller.render.guardian"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 43

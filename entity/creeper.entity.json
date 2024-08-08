@@ -39,7 +39,10 @@
         { "creeper_legs": "controller.animation.creeper.legs" },
         { "creeper_swelling": "controller.animation.creeper.swelling" }
       ],
-      "render_controllers": [ "controller.render.creeper", "controller.render.creeper_armor" ]
+      "render_controllers": [
+        "controller.render.creeper",
+        "controller.render.creeper_armor"
+      ]
     }
   }
 }

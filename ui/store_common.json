@@ -2,7 +2,7 @@
 {
   "coin_icon": {
     "texture": "textures/ui/icon_lock",
-    "size": [ 9, 11 ]
+    "size": [9, 11]
   },
   "coins_with_title/coin_balance_panel": {
     "ignored": true

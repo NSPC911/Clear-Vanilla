@@ -1,41 +1,37 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "minecraft:allay",
-			"materials": {
-				"default": "allay"
-			},
-			"textures": {
-				"default": "textures/entity/allay/allay",
-				"default_sad": "textures/entity/allay/allay_sad"
-			},
-			"geometry": {
-				"default": "geometry.allay"
-			},
-			"scripts": {
-				"pre_animation": [
-					"variable.holding_trident = query.is_item_name_any('slot.weapon.mainhand','minecraft:trident');"
-				],
-				"initialize": [
-					"v.random = Math.random(0,6);"
-				]
-			},
-			"animations": {
-				"idle": "animation.allay.idle",
-				"fly": "animation.allay.fly",
-				"hold_item": "animation.allay.hold_item",
-				"holding": "controller.animation.allay.holding",
-				"general": "controller.animation.allay.general"
-			},
-			"render_controllers": [
-				"controller.render.allay"
-			],
-			"spawn_egg": {
-				"texture": "spawn_egg",
-				"texture_index": 66
-			},
-			"enable_attachables": true
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:allay",
+      "materials": {
+        "default": "allay"
+      },
+      "textures": {
+        "default": "textures/entity/allay/allay",
+        "default_sad": "textures/entity/allay/allay_sad"
+      },
+      "geometry": {
+        "default": "geometry.allay"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.holding_trident = query.is_item_name_any('slot.weapon.mainhand','minecraft:trident');"
+        ],
+        "initialize": ["v.random = Math.random(0,6);"]
+      },
+      "animations": {
+        "idle": "animation.allay.idle",
+        "fly": "animation.allay.fly",
+        "hold_item": "animation.allay.hold_item",
+        "holding": "controller.animation.allay.holding",
+        "general": "controller.animation.allay.general"
+      },
+      "render_controllers": ["controller.render.allay"],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 66
+      },
+      "enable_attachables": true
+    }
+  }
 }

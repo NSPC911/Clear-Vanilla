@@ -23,7 +23,7 @@
         { "move": "controller.animation.ghast.move" },
         { "scale": "controller.animation.ghast.scale" }
       ],
-      "render_controllers": [ "controller.render.ghast" ]
+      "render_controllers": ["controller.render.ghast"]
     }
   }
 }

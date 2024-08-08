@@ -2,16 +2,15 @@
   "namespace": "common_tabs",
   "pocket_tab_help_button": {
     "type": "image",
-    "size": [ 0, 0 ],
+    "size": [0, 0],
     "texture": "textures/ui/TabRightBackTopMost",
 
-    "controls": [
-    ]
+    "controls": []
   },
 
   "pocket_tab_close_and_help_button": {
     "type": "image",
-    "size": [ "100%", "100%c + 12px" ],
+    "size": ["100%", "100%c + 12px"],
     "texture": "textures/ui/TabRightBackTopMost",
 
     "controls": [
@@ -19,7 +18,7 @@
         "close_button@common.light_close_button": {
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
-          "offset": [ 0, 6 ]
+          "offset": [0, 6]
         }
       }
     ]
@@ -27,7 +26,7 @@
 
   "tab_close_and_help_button": {
     "type": "image",
-    "size": [ "100%", "100%c + 7px" ],
+    "size": ["100%", "100%c + 7px"],
     "texture": "textures/ui/TabRightBackTopMost",
 
     "controls": [
@@ -35,7 +34,7 @@
         "close_button@common.light_close_button": {
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
-          "offset": [ 0, 4 ]
+          "offset": [0, 4]
         }
       }
     ]

@@ -1,7 +1,7 @@
 //This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
 {
   "persona_preset_section_panel": {
-    "size": [ "100%", "65%" ]
+    "size": ["100%", "65%"]
   },
   "profile_screen_main_content": {
     "modifications": [
@@ -12,7 +12,7 @@
           {
             "bottom_padding": {
               "type": "panel",
-              "size": [ "100%", "10%" ]
+              "size": ["100%", "10%"]
             }
           }
         ]

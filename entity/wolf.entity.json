@@ -46,7 +46,7 @@
         { "wolf_sitting": "controller.animation.wolf.sitting" },
         { "wolf_shaking": "controller.animation.wolf.shaking" }
       ],
-      "render_controllers": [ "controller.render.wolf" ],
+      "render_controllers": ["controller.render.wolf"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 5

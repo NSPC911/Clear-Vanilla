@@ -3,7 +3,9 @@
   "minecraft:attachable": {
     "description": {
       "identifier": "minecraft:iron_boots.fox",
-      "item": { "minecraft:iron_boots": "query.owner_identifier == 'minecraft:fox'" },
+      "item": {
+        "minecraft:iron_boots": "query.owner_identifier == 'minecraft:fox'"
+      },
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"
@@ -18,7 +20,7 @@
       "scripts": {
         "parent_setup": "variable.boot_layer_visible = 0.0;"
       },
-      "render_controllers": [ "controller.render.armor.fox" ]
+      "render_controllers": ["controller.render.armor.fox"]
     }
   }
 }

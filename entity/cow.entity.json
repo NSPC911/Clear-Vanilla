@@ -26,7 +26,7 @@
           { "baby_transform": "query.is_baby" }
         ]
       },
-      "render_controllers": [ "controller.render.cow" ],
+      "render_controllers": ["controller.render.cow"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 2

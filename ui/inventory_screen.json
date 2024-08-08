@@ -1,13 +1,13 @@
 {
   "namespace": "crafting",
   "toolbar_panel@crafting.crafting_root_panel": {
-    "size": [ "100%c", 20 ],
+    "size": ["100%c", 20],
 
     "controls": [
       {
         "toolbar_background@crafting.toolbar_background": {
-          "size": [ "100%cm", "100% + 8px" ],
-          "offset": [ 0, -3 ],
+          "size": ["100%cm", "100% + 8px"],
+          "offset": [0, -3],
           "anchor_from": "top_right",
           "anchor_to": "top_right",
 
@@ -17,8 +17,8 @@
                 "type": "stack_panel",
                 "orientation": "horizontal",
 
-                "size": [ "default", "100% - 8px" ],
-                "offset": [ 0, 3 ],
+                "size": ["default", "100% - 8px"],
+                "offset": [0, 3],
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
 
@@ -26,7 +26,7 @@
                   {
                     "left_trigger_anchor": {
                       "type": "panel",
-                      "size": [ 0, "100%" ],
+                      "size": [0, "100%"],
                       "bindings": [
                         {
                           "binding_name": "#gamepad_helper_visible",
@@ -36,7 +36,7 @@
                       "controls": [
                         {
                           "gamepad_helper_left_trigger@common.gamepad_helper_left_trigger": {
-                            "offset": [ 3, -2 ],
+                            "offset": [3, -2],
                             "anchor_from": "left_middle",
                             "anchor_to": "right_middle"
                           }
@@ -47,13 +47,13 @@
                   {
                     "padding_0": {
                       "type": "panel",
-                      "size": [ 8, 0 ]
+                      "size": [8, 0]
                     }
                   },
                   {
                     "creative_layout_toggle_panel": {
                       "type": "panel",
-                      "size": [ "100%c", "100%" ],
+                      "size": ["100%c", "100%"],
                       "bindings": [
                         {
                           "binding_type": "global",
@@ -73,7 +73,7 @@
                   {
                     "padding_1": {
                       "type": "panel",
-                      "size": [ 2, 0 ],
+                      "size": [2, 0],
                       "bindings": [
                         {
                           "binding_type": "global",
@@ -86,7 +86,7 @@
                   {
                     "recipe_book_layout_toggle_panel_survival": {
                       "type": "panel",
-                      "size": [ 25, "100%" ],
+                      "size": [25, "100%"],
                       "bindings": [
                         {
                           "binding_type": "global",
@@ -100,14 +100,16 @@
                             "$focus_override_left": "search_tab"
                           }
                         },
-                        { "open_recipe_book_tip@game_tip.open_recipe_book_factory": {} }
+                        {
+                          "open_recipe_book_tip@game_tip.open_recipe_book_factory": {}
+                        }
                       ]
                     }
                   },
                   {
                     "recipe_book_layout_toggle_panel_creative": {
                       "type": "panel",
-                      "size": [ "100%c", "100%" ],
+                      "size": ["100%c", "100%"],
                       "bindings": [
                         {
                           "binding_type": "global",
@@ -116,35 +118,39 @@
                         }
                       ],
                       "controls": [
-                        { "recipe_book_layout_toggle@crafting.recipe_book_layout_toggle": {} }
+                        {
+                          "recipe_book_layout_toggle@crafting.recipe_book_layout_toggle": {}
+                        }
                       ]
                     }
                   },
                   {
                     "padding_2": {
                       "type": "panel",
-                      "size": [ 1, 0 ]
+                      "size": [1, 0]
                     }
                   },
                   {
                     "survival_layout_toggle_panel": {
                       "type": "panel",
-                      "size": [ "100%c", "100%" ],
+                      "size": ["100%c", "100%"],
                       "controls": [
-                        { "survival_layout_toggle@crafting.survival_layout_toggle": {} }
+                        {
+                          "survival_layout_toggle@crafting.survival_layout_toggle": {}
+                        }
                       ]
                     }
                   },
                   {
                     "padding_3": {
                       "type": "panel",
-                      "size": [ 4, 0 ]
+                      "size": [4, 0]
                     }
                   },
                   {
                     "close_button_panel": {
                       "type": "panel",
-                      "size": [ 15, "100%" ],
+                      "size": [15, "100%"],
                       "bindings": [
                         {
                           "binding_name": "#close_button_visible",
@@ -154,25 +160,27 @@
                       "controls": [
                         {
                           "close_button@common.light_close_button": {
-                            "offset": [ 0, 0 ],
+                            "offset": [0, 0],
                             "anchor_from": "center",
                             "anchor_to": "center"
                           }
                         },
-                        { "close_inventory_tip@game_tip.close_inventory_factory": {} }
+                        {
+                          "close_inventory_tip@game_tip.close_inventory_factory": {}
+                        }
                       ]
                     }
                   },
                   {
                     "padding_4": {
                       "type": "panel",
-                      "size": [ 6, 0 ]
+                      "size": [6, 0]
                     }
                   },
                   {
                     "right_trigger_anchor": {
                       "type": "panel",
-                      "size": [ 0, "100%" ],
+                      "size": [0, "100%"],
                       "bindings": [
                         {
                           "binding_name": "#gamepad_helper_visible",
@@ -182,7 +190,7 @@
                       "controls": [
                         {
                           "gamepad_helper_right_trigger@common.gamepad_helper_right_trigger": {
-                            "offset": [ -2, -2 ],
+                            "offset": [-2, -2],
                             "anchor_from": "right_middle",
                             "anchor_to": "left_middle"
                           }

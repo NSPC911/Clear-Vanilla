@@ -14,7 +14,7 @@
         "persian": "textures/entity/cat/persian",
         "ragdoll": "textures/entity/cat/ragdoll",
         "tabby": "textures/entity/cat/tabby",
-        "jellie": "textures/entity/cat/jellie", 
+        "jellie": "textures/entity/cat/jellie",
         "all_black": "textures/entity/cat/allblackcat",
         "white_tame": "textures/entity/cat/white_tame",
         "black_tame": "textures/entity/cat/tuxedo_tame",
@@ -26,7 +26,7 @@
         "ragdoll_tame": "textures/entity/cat/ragdoll_tame",
         "tabby_tame": "textures/entity/cat/tabby_tame",
         "all_black_tame": "textures/entity/cat/allblackcat_tame",
-        "jellie_tame":  "textures/entity/cat/jellie_tame"
+        "jellie_tame": "textures/entity/cat/jellie_tame"
       },
       "geometry": {
         "default": "geometry.cat"
@@ -45,7 +45,7 @@
         { "move": "controller.animation.cat.move" },
         { "baby": "controller.animation.cat.baby" }
       ],
-      "render_controllers": [ "controller.render.cat" ],
+      "render_controllers": ["controller.render.cat"],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 8

@@ -56,7 +56,7 @@
         { "facing": "controller.animation.shulker.facing" },
         { "move": "controller.animation.shulker.move" }
       ],
-      "render_controllers": [ "controller.render.shulker" ]
+      "render_controllers": ["controller.render.shulker"]
     }
   }
 }

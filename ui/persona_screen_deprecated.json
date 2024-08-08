@@ -81,7 +81,7 @@
         "operation": "replace",
         "value": {
           "side_padding@common.empty_panel": {
-            "size": [ 5, "100%" ]
+            "size": [5, "100%"]
           }
         }
       }
@@ -116,7 +116,7 @@
     ]
   },
   "right_side_stack/offer_info_panel_skins": {
-    "size": [ "100%", 85 ]
+    "size": ["100%", 85]
   },
   "skin_doll_button/size_control": {
     "modifications": [

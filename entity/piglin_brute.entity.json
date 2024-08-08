@@ -54,7 +54,7 @@
         "riding.arms": "animation.humanoid.riding.arms",
         "riding.legs": "animation.humanoid.riding.legs"
       },
-      "render_controllers": [ "controller.render.piglin_brute" ],
+      "render_controllers": ["controller.render.piglin_brute"],
       "enable_attachables": true
     }
   }

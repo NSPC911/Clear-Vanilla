@@ -16,7 +16,11 @@
       "minecraft:emitter_lifetime_once": {},
 
       "minecraft:emitter_shape_point": {
-        "offset": [ "variable.is_vertical = Math.Random(0.0, 1.0) > 0.7; variable.splash_power = Math.random(0.0, 1.0) * variable.splash_range; variable.color_brightness = 0.75 + Math.random(0.0, 1.0) * 0.25; return 0.0;", 0, 0 ],
+        "offset": [
+          "variable.is_vertical = Math.Random(0.0, 1.0) > 0.7; variable.splash_power = Math.random(0.0, 1.0) * variable.splash_range; variable.color_brightness = 0.75 + Math.random(0.0, 1.0) * 0.25; return 0.0;",
+          0,
+          0
+        ],
         "direction": [
           "(variable.is_vertical > 0 ? 0.15 : 1.0) * Math.random(-1,1)",
           "(variable.is_vertical > 0 ? 1.0 : 0.0) * Math.random(0,1)",
@@ -46,7 +50,7 @@
       },
 
       "minecraft:particle_appearance_billboard": {
-        "size": [ 0.125, 0.125 ],
+        "size": [0.125, 0.125],
         "facing_camera_mode": "lookat_xyz",
 
         "uv": {
@@ -54,9 +58,9 @@
           "texture_height": 128,
 
           "flipbook": {
-            "base_UV": [ 128, 0 ],
-            "size_UV": [ 8, 8 ],
-            "step_UV": [ -8, 0 ],
+            "base_UV": [128, 0],
+            "size_UV": [8, 8],
+            "step_UV": [-8, 0],
             "frames_per_second": 8,
             "max_frame": 8,
             "stretch_to_lifetime": true,
@@ -65,7 +69,12 @@
         }
       },
       "minecraft:particle_appearance_tinting": {
-        "color": [ "variable.color.r * variable.color_brightness", "variable.color.g * variable.color_brightness", "variable.color.b * variable.color_brightness", "variable.color.a" ]
+        "color": [
+          "variable.color.r * variable.color_brightness",
+          "variable.color.g * variable.color_brightness",
+          "variable.color.b * variable.color_brightness",
+          "variable.color.a"
+        ]
       },
       "minecraft:particle_appearance_lighting": {}
     }

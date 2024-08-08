@@ -37,15 +37,13 @@
         "sit_down": "mob.camel.sit",
         "stand_up": "mob.camel.stand",
         "dashing": "mob.camel.dash"
-      }, 
+      },
       "animation_controllers": [
         { "general": "controller.animation.camel.general" },
-        { "idling": "controller.animation.camel.idle"},
+        { "idling": "controller.animation.camel.idle" },
         { "look_at_player": "controller.animation.camel.look_at_player" }
       ],
-      "render_controllers": [
-        "controller.render.camel"
-      ]
+      "render_controllers": ["controller.render.camel"]
     }
   }
 }

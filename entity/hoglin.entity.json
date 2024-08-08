@@ -31,9 +31,9 @@
         { "look_at_target": "controller.animation.hoglin.look_at_target" },
         { "walk": "controller.animation.hoglin.walk" },
         { "attack": "controller.animation.hoglin.attack" },
-        { "hoglin_baby_scaling": "controller.animation.hoglin.baby_scaling"}
+        { "hoglin_baby_scaling": "controller.animation.hoglin.baby_scaling" }
       ],
-      "render_controllers": [ "controller.render.hoglin" ]
+      "render_controllers": ["controller.render.hoglin"]
     }
   }
 }

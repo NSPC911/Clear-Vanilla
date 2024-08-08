@@ -1,35 +1,31 @@
 {
-	"format_version": "1.8.0",
-	"render_controllers": {
-		"controller.render.goat": {
-			"geometry": "Geometry.default",
-			"part_visibility": [
-				{
-					"right_horn": "variable.goat_has_right_horn"
-				},
-				{
-					"left_horn": "variable.goat_has_left_horn"
-				}
-			],
-			"materials": [
-				{
-					"*": "Material.default"
-				}
-			],
-			"textures": [
-				"query.variant == 1 ? Texture.screaming : Texture.default"
-			]
-		},
-		"controller.render.goat_warning": {
-			"geometry": "Geometry.goat_warning",
-			"materials": [
-				{
-					"*": "Material.default"
-				}
-			],
-			"textures": [
-				"query.is_ram_attacking ? Texture.warning : Texture.none"
-			]
-		}
-	}
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.goat": {
+      "geometry": "Geometry.default",
+      "part_visibility": [
+        {
+          "right_horn": "variable.goat_has_right_horn"
+        },
+        {
+          "left_horn": "variable.goat_has_left_horn"
+        }
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["query.variant == 1 ? Texture.screaming : Texture.default"]
+    },
+    "controller.render.goat_warning": {
+      "geometry": "Geometry.goat_warning",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": ["query.is_ram_attacking ? Texture.warning : Texture.none"]
+    }
+  }
 }

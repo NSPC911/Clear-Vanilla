@@ -29,7 +29,9 @@
           { "brandish_spear": "variable.is_brandishing_spear" },
           "bob",
           { "damage_nearby_mobs": "variable.damage_nearby_mobs" },
-          { "use_item_progress": "( variable.use_item_interval_progress > 0.0 ) || ( variable.use_item_startup_progress > 0.0 )" },
+          {
+            "use_item_progress": "( variable.use_item_interval_progress > 0.0 ) || ( variable.use_item_startup_progress > 0.0 )"
+          },
           { "swimming": "variable.swim_amount > 0.0" }
         ]
       },
@@ -53,7 +55,7 @@
         "attack_rotations": "animation.drowned.attack.rotations",
         "swimming": "animation.zombie.swimming"
       },
-      "render_controllers": [ "controller.render.drowned" ],
+      "render_controllers": ["controller.render.drowned"],
       "enable_attachables": true,
       "spawn_egg": {
         "texture": "spawn_egg",
